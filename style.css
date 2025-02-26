@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 *{
@@ -177,6 +178,7 @@ header ul li:hover a{
     justify-content: center;
     flex-direction: column;
 }
+
 /*skills Section */
 #skills {
     padding: 50px 0;
@@ -237,7 +239,6 @@ h3 {
     font-size: 1em;
     color:#ff0199 ;
 }
-
 /* Service Section */
 .secText{
     position: relative;
