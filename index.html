@@ -51,35 +51,43 @@
         <div class="content">
             <div class="skillBox">
                 <svg width="150" height="150" viewBox="0 0 150 150" class="circle">
-                    <circle cx="75" cy="75" r="70" class="bg"></circle>
-                    <circle cx="75" cy="75" r="70" class="progress" stroke-dasharray="440" stroke-dashoffset="220"></circle>
-                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">80%</text>
+                    <circle cx="75" cy="75" r="65" class="bg"></circle>
+                    <circle cx="75" cy="75" r="65" class="progress"  ></circle>
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">95%</text>
                 </svg>
                 <h3>HTML</h3>
             </div>
             <div class="skillBox">
                 <svg width="150" height="150" viewBox="0 0 150 150" class="circle">
-                    <circle cx="75" cy="75" r="70" class="bg"></circle>
-                    <circle cx="75" cy="75" r="70" class="progress" stroke-dasharray="440" stroke-dashoffset="150"></circle>
-                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">60%</text>
+                    <circle cx="75" cy="75" r="65" class="bg"></circle>
+                    <circle cx="75" cy="75" r="65" class="progress"></circle>
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">85%</text>
                 </svg>
                 <h3>CSS</h3>
             </div>
             <div class="skillBox">
                 <svg width="150" height="150" viewBox="0 0 150 150" class="circle">
-                    <circle cx="75" cy="75" r="70" class="bg"></circle>
-                    <circle cx="75" cy="75" r="70" class="progress" stroke-dasharray="440" stroke-dashoffset="100"></circle>
-                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">40%</text>
+                    <circle cx="75" cy="75" r="65" class="bg"></circle>
+                    <circle cx="75" cy="75" r="65" class="progress" ></circle>
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">75%</text>
                 </svg>
                 <h3>JavaScript</h3>
             </div>
             <div class="skillBox">
                 <svg width="150" height="150" viewBox="0 0 150 150" class="circle">
-                    <circle cx="75" cy="75" r="70" class="bg"></circle>
-                    <circle cx="75" cy="75" r="70" class="progress" stroke-dasharray="440" stroke-dashoffset="120"></circle>
-                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">50%</text>
+                    <circle cx="75" cy="75" r="65" class="bg"></circle>
+                    <circle cx="75" cy="75" r="65" class="progress" ></circle>
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">75%</text>
                 </svg>
                 <h3>Python</h3>
+            </div>
+            <div class="skillBox">
+                <svg width="150" height="150" viewBox="0 0 150 150" class="circle">
+                    <circle cx="75" cy="75" r="65" class="bg"></circle>
+                    <circle cx="75" cy="75" r="65" class="progress" ></circle>
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="percentage">75%</text>
+                </svg>
+                <h3>Java</h3>
             </div>
         </div>
        
@@ -109,6 +117,16 @@
         <h2>Recently I have done</h2>
     </div>
     <div class="content">
+        <div class="video-modal" id="videoModal">
+            <div class="modal-content">
+              <span class="close-modal">&times;</span>
+              <video id="portfolioVideo" controls>
+                <source src="img/medi.mp4" type="video/mp4">
+                
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         <div class="imgBx">
             <img decoding="async" src="img/project1.png" alt="Symptom Mapper Project">
             <div class="projectDesc">
@@ -119,7 +137,7 @@
                     <li>✅ Doctor-Patient Profiles: Secure logins with features for appointment bookings, chats, and video consultations.</li>
                     <li>✅ AI-Based Healthcare Chatbot: Provides instant assistance for health-related queries.</li>
                 </ul>
-                <a href="https://github.com/sohamkoli29/MediMapper" target="_blank" class="btn">View Project</a>
+                <button class="view-project-btn">View Project</button>
             </div>
         </div>
     </div>
@@ -148,3 +166,5 @@
     <script src="main.js"></script>
 </body>
 </html>
+
+
