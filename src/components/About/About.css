@@ -1,0 +1,334 @@
+.about {
+  margin: 0;
+  display: flex;
+
+    align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Heading */
+.about-head h1{   
+        margin-top: 20vh;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        letter-spacing: 0;
+        font-size: 3rem;
+         color: var(--color-white);
+         display: inline-block;
+}
+
+.about-head h1::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 5px;
+  border-radius: 5px;
+  background: var(--glow-gradient);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  animation: slide 1s ease-in-out forwards;
+}
+
+/* About-Main */
+.about-main{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 40px;
+ 
+}
+/* About-Edu-card*/
+.about-edu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    transform: perspective(800px) translateX(-200px) rotateY(30deg);
+    filter: drop-shadow(0 0 5px var(--color-cyan));
+
+  }
+/* About-Education */
+.about-cse{
+    width: 200px;
+    height: 250px;
+    border: var(--color-cyan) 2px solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 0px 0px var(--color-cyan);
+}
+
+.about-cse h3,
+.about-cse p{
+    position: relative;
+    
+    text-align: center;
+    color: var(--color-white);
+}
+
+.about-cse h3::after{
+    content: '';
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  border-radius: 5px;
+  background: var(--color-white);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+.about-cse p{
+    font-size: 1.17em;
+    font-weight: bolder;
+    color: var(--color-white);
+   
+}
+
+/* About-Servuces */
+.about-cf{
+    width: 200px;
+    height: 250px;
+    border: var(--color-cyan) 2px solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: -5px 0px 0px var(--color-cyan);
+    margin-bottom: 100px;
+}
+.about-cf h3,
+.about-cf p{
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    text-align: center;
+    color: var(--color-white);
+}
+.about-cf h3::after{
+    content: '';
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  border-radius: 5px;
+  background: var(--color-white);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+.about-cf p{
+    font-size: 1.17em;
+    font-weight: bolder;
+    color: var(--color-white);
+   
+}
+/* About-ID-Card */
+.about-me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 500px;
+  width: 250px;
+  border: var(--color-cyan) 2px solid;
+  border-radius: 50px;
+  transform: perspective(800px) rotateY(10deg);
+  box-shadow: -10px 0px 0px var(--color-cyan);
+    filter: drop-shadow(0 0 7px var(--color-cyan));
+
+  padding: 20px; 
+}
+.about-img{
+ 
+  height: 300px;
+  width: 200px;
+  display: flex;
+ 
+  align-items: end;
+
+
+}
+.about-img img{
+ 
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+
+  -webkit-mask-image: linear-gradient(to bottom,  black 50% , transparent 100%);
+  mask-image: linear-gradient(to bottom,  black 50% , transparent 100%);
+}
+.about-name {
+  width: 200px;
+  position: relative;
+  top: -20px;
+  font-size: 1.5em;
+  color: var(--color-white);
+  top: 0;
+  text-align: center;
+}
+.about-name::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  background: var(--color-white);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  animation: slide 1s ease-in forwards;
+}
+/* About Bio*/
+.about-bio {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 400px;
+  width: 250px;
+  border: var(--color-cyan) 2px solid;
+  border-radius: 50px;
+  transform: perspective(800px) translateX(200px)  rotateY(-30deg);
+    filter: drop-shadow(0 0 5px var(--color-cyan));
+
+  box-shadow: 10px 0px 0px var(--color-cyan);
+  padding: 20px;
+  gap: 20px;
+}
+.about-bio h3{
+  position: relative;
+  
+  font-size: 1.5em;
+  color: var(--color-white);
+  text-align: center;
+}
+.about-bio h3::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  background: var(--color-white);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+.about-bio p{
+
+  position: relative;
+
+  padding: 10px;
+
+  color: var(--color-white);
+}
+.about-bio p::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  border-radius: 5px;
+  background: var(--color-white);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+.about-btn{
+  background: var(--color-cyan);
+  color: var(--color-white);
+  border-radius: 15px;
+  font-size: large;
+  font-weight: bolder;
+  padding: 5px 10px;
+  
+  border: none;
+  
+}
+.about-btn:hover{
+  background: var(--color-white);
+  color: var(--color-cyan);
+  box-shadow: 0 0 5px var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .about-main {
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .about-edu, .about-me, .about-bio {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-head h1 {
+    margin-top: 10vh;
+    font-size: 2.5rem;
+    white-space: normal;
+  }
+  
+  .about-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .about-edu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+    gap: 30px;
+  }
+  .about-cse, .about-cf {
+    
+    padding: 5px;
+    font-size: 0.8em;
+  }
+  .about-cf {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-head h1 {
+    font-size: 2rem;
+  }
+  
+  .about-edu {
+    gap: 20px;
+  }
+  
+  .about-me, .about-bio {
+    width: 90%;
+    max-width: 250px;
+  }
+ .about-bio p {
+    font-size: 0.8em;
+  }
+  .about-cse, .about-cf {
+    width: 90%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-head h1 {
+    font-size: 1.8rem;
+  }
+  
+  .about-edu {
+    flex-direction: column;
+  }
+}
