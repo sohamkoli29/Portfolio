@@ -36,7 +36,7 @@ const About = () => {
           <h3>{t('aboutBioH3')} </h3>
           <p>{t('aboutBioP')}
       </p>
-      <a href="./resume.pdf"  target="_blank" rel='noopener noreferrer'>
+      <a href="./Resume.pdf" download="Soham_Koli_Resume.pdf" >
     <button className="about-btn">   {t('aboutBtn')} <Download/></button>
     </a>
         </div>
