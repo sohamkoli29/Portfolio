@@ -1,0 +1,7 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    z-index: -99;
+    background: var(--gradient-bg);
+}

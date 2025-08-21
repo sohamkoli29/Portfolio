@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    /* === Common Colors === */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-cyan: #00f2ff;
+    --color-blue: #0099cc;
+    --color-pink: #ff00cc;
+    --color-purple: #3333ff;
+
+    /* === Opacity Variants === */
+    --white-05: rgba(255, 255, 255, 0.05);
+    --white-10: rgba(255, 255, 255, 0.1);
+    --white-20: rgba(255, 255, 255, 0.2);
+    --white-15: rgba(255, 255, 255, 0.15);
+    --white-30: rgba(255, 255, 255, 0.3);
+    --white-50: rgba(255, 255, 255, 0.5);
+    --white-85: rgba(255, 255, 255, 0.85);
+
+    --cyan-10: rgba(0, 242, 255, 0.1);
+    --cyan-20: rgba(0, 242, 255, 0.2);
+    --cyan-30: rgba(0, 242, 255, 0.3);
+    --cyan-40: rgba(0, 242, 255, 0.4);
+    --cyan-50: rgba(0, 242, 255, 0.5);
+
+    --black-10: rgba(0, 0, 0, 0.1);
+    --black-15: rgba(0, 0, 0, 0.15);
+    --black-30: rgba(0, 0, 0, 0.3);
+    --black-40: rgba(0, 0, 0, 0.4);
+    --black-80: rgba(0, 0, 0, 0.8);
+    --black-95: rgba(0, 0, 0, 0.95);
+
+  /* === Gradients === */
+  --gradient-bg: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  --gradient-project-card: linear-gradient(270deg, var(--color-pink), var(--color-purple), var(--color-cyan), var(--color-pink));
+  --gradient-button: linear-gradient(135deg, var(--color-cyan), var(--color-blue));
+  --gradient-learn-btn: linear-gradient(135deg, var(--glow-gradient), var(--color-blue));
+  --gradient-learn-hover: linear-gradient(135deg, #00d4ff, var(--glow-gradient));
+  --gradient-title: linear-gradient(135deg, var(--text-primary), var(--text-highlight));
+  --gradient-underline: linear-gradient(90deg, var(--text-highlight), transparent);
+  --gradient-footer-hover: linear-gradient(90deg, transparent, var(--cyan-10), transparent);
+  --gradient-mobile-nav: linear-gradient(135deg, rgba(var(--glow-rgb), 0.1), var(--white-05));
+  --gradient-project-overlay: linear-gradient(135deg, var(--border-primary), var(--white-05));
+
+  /* === RGB Values === */
+  --glow-rgb: 0, 242, 255;
+
+  /* === Backgrounds === */
+  --bg-main: var(--gradient-bg);
+  --bg-card: var(--white-05);
+  --bg-input: var(--white-05);
+  --bg-disabled: var(--border-primary);
+  --bg-hover: var(--cyan-10);
+  --bg-header-default: var(--border-primary);
+  --bg-header-scrolled: var(--white-15);
+  --bg-mobile-nav: var(--black-95);
+  --bg-project: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  --bg-project-desc: rgba(0, 0, 0, 0.85);
+  --bg-transparent: var(--black-15);
+  --bg-nav-link-hover: var(--white-05);
+
+  /* === Borders === */
+  --border-primary: var(--white-10);
+  --border-hover: var(--cyan-30);
+  --border-focus: var(--cyan-50);
+  --border-back-top: var(--cyan-30);
+
+  /* === Shadows & Effects === */
+  --shadow-header-scrolled: var(--black-10);
+  --shadow-hover: var(--cyan-20);
+  --shadow-focus: var(--cyan-10);
+  --shadow-social-hover: var(--cyan-30);
+  --shadow-learn-btn: 0 4px 15px var(--cyan-30), inset 0 1px 0 var(--white-20);
+  --shadow-learn-hover: 0 6px 25px var(--cyan-50), inset 0 1px 0 var(--white-30);
+  --shadow-project-card: 0 8px 32px var(--black-30), 0 0 0 1px var(--border-primary);
+  --shadow-project-card-hover: 0 15px 45px var(--black-40), 0 0 30px rgba(var(--glow-rgb), 0.3);
+  --shadow-project-desc: 0 8px 32px var(--black-40);
+
+  /* === Buttons === */
+  --btn-back-top: var(--cyan-10);
+  --btn-back-top-hover: var(--cyan-20);
+  --btn-gradient: var(--gradient-button);
+  --btn-learn: var(--gradient-learn-btn);
+  --btn-learn-hover: var(--gradient-learn-hover);
+
+  /* === Glow === */
+  --glow-gradient: linear-gradient(to right, #00D2DF, #3a7bd5);
+
+  /* === Text Colors (Dark Theme) === */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-highlight: var(--color-cyan);
+}
+
+/* === LIGHT THEME OVERRIDES === */
+[data-theme="light"] {
+  --color-white: #000000; /* Inverted for light theme */
+  --color-black: #ffffff; /* Inverted for light theme */
+  --color-cyan: #0099cc; /* Slightly darker cyan for better contrast */
+  --color-blue: #006699; /* Darker blue for light theme */
+  --color-pink: #cc0099; /* Darker pink for light theme */
+  --color-purple: #2222cc; /* Darker purple for light theme */
+
+  /* === Light Theme Opacity Variants === */
+  --white-05: rgba(0, 0, 0, 0.05); /* Now black with opacity */
+  --white-10: rgba(0, 0, 0, 0.1);
+  --white-20: rgba(0, 0, 0, 0.2);
+  --white-15: rgba(0, 0, 0, 0.15);
+  --white-30: rgba(0, 0, 0, 0.3);
+  --white-50: rgba(0, 0, 0, 0.5);
+  --white-85: rgba(0, 0, 0, 0.85);
+
+  --cyan-10: rgba(0, 153, 204, 0.1); /* Using darker cyan */
+  --cyan-20: rgba(0, 153, 204, 0.2);
+  --cyan-30: rgba(0, 153, 204, 0.3);
+  --cyan-40: rgba(0, 153, 204, 0.4);
+  --cyan-50: rgba(0, 153, 204, 0.5);
+
+  --black-10: rgba(255, 255, 255, 0.1); /* Now white with opacity */
+  --black-15: rgba(255, 255, 255, 0.15);
+  --black-30: rgba(255, 255, 255, 0.3);
+  --black-40: rgba(255, 255, 255, 0.4);
+  --black-80: rgba(255, 255, 255, 0.8);
+  --black-95: rgba(255, 255, 255, 0.95);
+
+  /* === Light Theme Backgrounds === */
+  --gradient-bg: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+  --bg-main: var(--gradient-bg);
+  --bg-card: rgba(255, 255, 255, 0.8);
+  --bg-input: rgba(255, 255, 255, 0.6);
+  --bg-hover: rgba(0, 242, 255, 0.08);
+  --bg-header-default: rgba(255, 255, 255, 0.2);
+  --bg-header-scrolled: rgba(255, 255, 255, 0.95);
+  --bg-mobile-nav: rgba(255, 255, 255, 0.98);
+  --bg-project: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  --bg-project-desc: rgba(255, 255, 255, 0.95);
+  --bg-transparent: rgba(255, 255, 255, 0.1);
+  --bg-nav-link-hover: rgba(0, 0, 0, 0.05);
+
+  /* === Light Theme Borders === */
+  --border-primary: rgba(0, 0, 0, 0.1);
+  --border-hover: rgba(0, 242, 255, 0.4);
+  --border-focus: rgba(0, 242, 255, 0.6);
+
+  /* === Light Theme Shadows === */
+  --shadow-header-scrolled: rgba(0, 0, 0, 0.05);
+  --shadow-hover: rgba(0, 242, 255, 0.15);
+  --shadow-focus: rgba(0, 242, 255, 0.1);
+  --shadow-social-hover: rgba(0, 242, 255, 0.25);
+  --shadow-learn-btn: 0 4px 15px rgba(0, 242, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  --shadow-learn-hover: 0 6px 25px rgba(0, 242, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  --shadow-project-card: 0 8px 32px rgba(0, 0, 0, 0.08), 0 0 0 1px var(--border-primary);
+  --shadow-project-card-hover: 0 15px 45px rgba(0, 0, 0, 0.12), 0 0 30px rgba(var(--glow-rgb), 0.2);
+  --shadow-project-desc: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+  /* === Light Theme Text Colors === */
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --text-highlight: #0099cc;
+
+  /* === Light Theme Gradients === */
+  --gradient-title: linear-gradient(135deg, var(--text-primary), var(--text-highlight));
+  --gradient-underline: linear-gradient(90deg, var(--text-highlight), transparent);
+  --gradient-footer-hover: linear-gradient(90deg, transparent, rgba(0, 242, 255, 0.1), transparent);
+  --gradient-mobile-nav: linear-gradient(135deg, rgba(var(--glow-rgb), 0.05), rgba(255, 255, 255, 0.1));
+  --gradient-project-overlay: linear-gradient(135deg, var(--border-primary), rgba(255, 255, 255, 0.1));
+
+  /* === Light Theme Buttons === */
+  --btn-back-top: rgba(0, 242, 255, 0.1);
+  --btn-back-top-hover: rgba(0, 242, 255, 0.2);
+
+
+/* === Smooth transitions for theme switching === */
+}
+
+
+  
+/* Animations */
+
+
+
+@keyframes glowText{
+    0% {
+        text-shadow: 0 0 5px var(--color-cyan);
+    }
+    100% {
+        text-shadow: 0 0 10px var(--color-cyan);
+    }
+}
+
+
+@keyframes slide {
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 
+            0 0 15px rgba(var(--glow-color-rgb, 0, 242, 255), 0.3),
+            inset 0 1px 0 var(--white-10);
+    }
+    to {
+        box-shadow: 
+            0 0 25px rgba(var(--glow-color-rgb, 0, 242, 255), 0.5),
+            inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+}
+
+@keyframes slideInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

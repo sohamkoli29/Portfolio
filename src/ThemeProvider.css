@@ -1,0 +1,142 @@
+/* Theme Toggle Button Styles */
+.theme-toggle-btn {
+  /* Base Styling */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  overflow: hidden;
+  
+  /* Transitions */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Shadow */
+  box-shadow: 
+    0 2px 8px var(--shadow-hover),
+    inset 0 1px 0 var(--white-10);
+}
+
+/* Hover State */
+.theme-toggle-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 25px var(--shadow-hover),
+    0 0 20px rgba(var(--glow-rgb), 0.2),
+    inset 0 1px 0 var(--white-20);
+}
+
+/* Active State */
+.theme-toggle-btn:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 2px 8px var(--shadow-hover),
+    inset 0 2px 4px var(--black-15);
+}
+
+/* Focus State for Accessibility */
+.theme-toggle-btn:focus {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 
+    0 0 0 3px var(--cyan-20),
+    0 2px 8px var(--shadow-hover);
+}
+
+/* Icon Animation */
+.theme-toggle-btn svg {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-btn:hover svg {
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* Glow Effect on Hover */
+.theme-toggle-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-button);
+  opacity: 0;
+  border-radius: 11px;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.theme-toggle-btn:hover::before {
+  opacity: 0.1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .theme-toggle-btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .theme-toggle-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+/* ===  Animated Background === */
+.theme-toggle-btn.animated {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-hover));
+  border: 1px solid var(--border-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-toggle-btn.animated::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    transparent,
+    rgba(var(--glow-rgb), 0.1),
+    transparent
+  );
+  animation: rotate 3s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.theme-toggle-btn.animated:hover::before {
+  opacity: 1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* === Usage Instructions === 
+To use different variants, add the class to your button:
+
+Default: <button className="theme-toggle-btn">
+Pill: <button className="theme-toggle-btn pill">
+Floating: <button className="theme-toggle-btn floating">
+Minimal: <button className="theme-toggle-btn minimal">
+Animated: <button className="theme-toggle-btn animated">
+*/
