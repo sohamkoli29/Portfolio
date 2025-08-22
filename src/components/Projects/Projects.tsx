@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
                 className="action-btn view-project-btn"
                 onClick={() =>
                   handleViewProject(
-                    'http://medimapper.wuaze.com'
+                    'http://medimapper.gt.tc/'
                   )
                 }
               >
