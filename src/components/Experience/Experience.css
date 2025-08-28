@@ -1,0 +1,687 @@
+/* Experience Section Styles */
+.experience-section {
+        margin: 0;
+        display: flex;
+
+            align-items: center;
+        flex-direction: column;
+        gap: 20px;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header Styles */
+.experience-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  animation: slideInUp 0.8s ease-out;
+}
+
+.experience-title {
+    margin-top: 20vh;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        letter-spacing: 0;
+        font-size: 3rem;
+         color: var(--color-white);
+         display: inline-block;
+         margin-bottom: 1rem;
+}
+
+.experience-title::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 5px;
+  border-radius: 5px;
+  background: var(--glow-gradient);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  animation: slide 1s ease-in-out forwards;
+}
+
+.experience-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Timeline Styles */
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  animation: fadeIn 1s ease-out 0.3s both;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Timeline Marker */
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--text-highlight);
+  border: 3px solid var(--bg-main);
+  box-shadow: 0 0 0 3px var(--text-highlight);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
+
+.experience-item:hover .timeline-dot {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 3px var(--text-highlight), 0 0 20px rgba(var(--glow-rgb), 0.4);
+}
+
+.timeline-line {
+  width: 2px;
+  height: 100px;
+  background: linear-gradient(to bottom, var(--text-highlight), var(--border-primary));
+  margin-top: 1rem;
+}
+
+/* Experience Card */
+.experience-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+  padding: 2rem;
+  flex: 1;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-project-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-project-card);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-size: 300% 300%;
+  animation: moveGradient 6s ease infinite;
+}
+
+.experience-item:hover .experience-card {
+  transform: translateX(10px);
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-project-card-hover);
+}
+
+.experience-item:hover .experience-card::before {
+  opacity: 0.05;
+}
+
+/* Experience Types */
+.experience-item.internship .timeline-dot {
+  background: var(--color-cyan);
+  box-shadow: 0 0 0 3px var(--color-cyan);
+}
+
+.experience-item.project .timeline-dot {
+  background: var(--color-purple);
+  box-shadow: 0 0 0 3px var(--color-purple);
+}
+
+.experience-item.freelance .timeline-dot {
+  background: #4ecdc4;
+  box-shadow: 0 0 0 3px #4ecdc4;
+}
+
+/* Card Header */
+.experience-header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.experience-title-group {
+  flex: 1;
+}
+
+.experience-job-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.experience-company {
+  color: var(--text-highlight);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.experience-location {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.experience-duration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.duration-badge {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--border-primary);
+  white-space: nowrap;
+}
+
+.experience-type {
+  background: var(--bg-transparent);
+  color: var(--text-secondary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid var(--border-primary);
+}
+
+/* Card Content */
+.experience-content {
+  position: relative;
+  z-index: 2;
+}
+
+.experience-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.experience-highlights {
+  margin-bottom: 1.5rem;
+}
+
+.responsibilities-preview h4 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.responsibilities-preview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.responsibilities-preview li {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.responsibilities-preview li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--text-highlight);
+  font-weight: bold;
+}
+
+.responsibilities-preview li.more-items {
+  color: var(--text-highlight);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.technologies-used h4 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--border-primary);
+  transition: all 0.3s ease;
+}
+
+.tech-tag.more {
+  background: var(--bg-transparent);
+  color: var(--text-secondary);
+}
+
+.tech-tag:hover {
+  background: var(--border-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+/* Card Footer */
+.experience-footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-primary);
+  position: relative;
+  z-index: 2;
+}
+
+.view-details {
+  color: var(--text-highlight);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Modal Styles */
+.experience-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--black-80);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.experience-modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px var(--black-40);
+  animation: slideInUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--bg-transparent);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.modal-close:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+  transform: scale(1.1);
+}
+
+.modal-content {
+  padding: 2rem;
+}
+
+.modal-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.modal-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.modal-company {
+  color: var(--text-highlight);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.modal-meta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.modal-location,
+.modal-duration {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.modal-type-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid;
+}
+
+.modal-type-badge.internship {
+  background: rgba(0, 242, 255, 0.1);
+  color: var(--color-cyan);
+  border-color: var(--color-cyan);
+}
+
+.modal-type-badge.project {
+  background: rgba(51, 51, 255, 0.1);
+  color: var(--color-purple);
+  border-color: var(--color-purple);
+}
+
+.modal-type-badge.freelance {
+  background: rgba(78, 205, 196, 0.1);
+  color: #4ecdc4;
+  border-color: #4ecdc4;
+}
+
+
+
+.modal-section {
+  margin-bottom: 2rem;
+}
+
+.modal-section:last-child {
+  margin-bottom: 0;
+}
+
+.modal-section h4 {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.modal-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.modal-responsibilities,
+.modal-achievements {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-responsibilities li,
+.modal-achievements li {
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.modal-responsibilities li::before,
+.modal-achievements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--text-highlight);
+  font-weight: bold;
+}
+
+.modal-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.modal-tech-tag {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 500;
+  border: 1px solid var(--border-primary);
+  transition: all 0.3s ease;
+}
+
+.modal-tech-tag:hover {
+  background: var(--border-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 4rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .experience-title {
+    font-size: 2.5rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .timeline-marker {
+    margin-right: 1rem;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .experience-header-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .experience-duration {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .modal-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+  }
+
+  .modal-title {
+    font-size: 1.75rem;
+  }
+
+  .modal-technologies {
+    gap: 0.5rem;
+  }
+
+  .modal-tech-tag {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-section {
+    padding: 3rem 0;
+  }
+
+  .experience-title {
+    font-size: 2rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1rem;
+  }
+
+  .experience-header {
+    margin-bottom: 3rem;
+  }
+
+  .experience-item {
+    margin-bottom: 2rem;
+  }
+
+  .timeline-marker {
+    margin-right: 0.75rem;
+  }
+
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .experience-card {
+    padding: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .experience-job-title {
+    font-size: 1.25rem;
+  }
+
+  .experience-company {
+    font-size: 1rem;
+  }
+
+  .tech-tags {
+    gap: 0.375rem;
+  }
+
+  .tech-tag {
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+  }
+
+  .experience-modal {
+    margin: 1rem;
+  }
+
+  .modal-content {
+    padding: 1.25rem;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+
+  .modal-company {
+    font-size: 1.125rem;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
