@@ -1,5 +1,5 @@
 import './About.css';
-import myImg from '../../assets/about-id.png';
+
 import { Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import type { JSX } from 'react';
@@ -35,7 +35,7 @@ const About = (): JSX.Element => {
 
         <div className="about-me">
           <div className="about-img">
-            <img src={myImg} alt="Soham Koli" />
+            <img src="assets/about-id.png" alt="Soham Koli" />
           </div>
           <div className="about-name">
             <h2>{t('aboutName')}</h2>
