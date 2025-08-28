@@ -1,32 +1,32 @@
 {
     "logoFname": "Soham",
     "logoLname": "Koli",
-    "navList": ["الرئيسية", "من أنا", "المهارات", "الشهادات", "الإنجازات", "الخبرات", "المشاريع", "اتصال"],
+    "navList": ["Home", "About", "Skills", "Certificates", "Achievements", "Experience", "Projects", "Contact"],
 
-    "greeting": "مرحباً، أنا",
-
+    "greeting": "مرحبًا، أنا",
+    
     "homeHead": "Soham Koli",
-    "roleFullStack": "Full Stack Developer",
-    "roleFrontend": "Frontend Developer",
-    "roleBackend": "Backend Developer",
-    "roleReact": "React Developer",
-    "homeText": "Crafting digital experiences with modern technologies. Specialized in full-stack development with a passion for creating innovative solutions that make a difference.",
-    "rolePrefix": "مطور شغوف",
+    "roleFullStack": "Full Stack Devloper",
+    "roleFrontend": "Frontend Devloper",
+    "roleBackend": "Backend Devloper",
+    "roleReact": "React Devloper",
+    "homeText": "تصميم تجارب رقمية باستخدام تقنيات حديثة. متخصص في التطوير الشامل مع شغف لإنشاء حلول مبتكرة تحدث فرقًا.",
+    "rolePrefix": "شغوف بـ",
     "viewWork": "عرض أعمالي",
     "getInTouch": "تواصل معي",
-    "scrollDown": "مرر للأسفل للاستكشاف",
+    "scrollDown": "مرر للاستكشاف",
 
-    "aboutHead": "من أنا",
+    "aboutHead": "حول",
     "aboutEduHead": "التعليم",
     "aboutEduH3": "Pimpri Chinchwad University",
     "aboutProgram": "B.Tech",
     "aboutCourse": "Computer Science Engineering",
-    "aboutCfHead": "ماذا أعرف",
-    "aboutCfH3": "تصميم المواقع",
-    "aboutCfP": "تطوير الويب",
+    "aboutCfHead": "ما أعرفه",
+    "aboutCfH3": "Web Design",
+    "aboutCfP": "Web Devlopment",
     "aboutName": "Soham Suraj Koli",
     "aboutBioH3": "نبذة عني",
-    "aboutBioP": "Hi, I'm Soham Koli—a dedicated web developer who loves turning ideas into sleek, user-friendly digital experiences. I thrive on building responsive websites and web applications, blending creativity with modern frontend and backend tech to deliver solutions that are both functional and engaging.",
+    "aboutBioP": "مرحبًا، أنا Soham Koli—مطور ويب مخلص يحب تحويل الأفكار إلى تجارب رقمية سلسة وسهلة الاستخدام. أستمتع ببناء مواقع وتطبيقات ويب متجاوبة، وأمزج الإبداع مع تقنيات Frontend وBackend الحديثة لتقديم حلول عملية وجذابة.",
     "aboutBtn": "تحميل السيرة الذاتية",
 
     "skillsHead": "المهارات",
@@ -34,34 +34,174 @@
 
     "achievementsHead": "الإنجازات",
     "achievementsSub": "رحلتي التعليمية ومشاركتي في مختلف الفعاليات والمشاريع",
+    "achievements": [
+        {
+            "id": 1,
+            "title": "شهادة تطوير الويب",
+            "organization": "Internshala Trainings",
+            "date": "يناير 2024",
+            "description": "أتممت بنجاح تدريبًا عبر الإنترنت لمدة 8 أسابيع في تطوير الويب، تغطى HTML وCSS وBootstrap وDBMS وPHP وJavaScript وReact ووحدة المشروع النهائي.",
+            "type": "completion",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Web Development with AI Training.png"
+        },
+        {
+            "id": 2,
+            "title": "شهادة المشاركة في الهاكاثون",
+            "organization": "Amity University Mumbai",
+            "date": "يناير 2025",
+            "description": "شاركت في NIRMAN ‘25، هاكاثون لمدة 48 ساعة أقيم في Amity School of Engineering and Technology، Amity University Mumbai من 28 إلى 30 يناير 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NIRMAN2025.png"
+        },
+        {
+            "id": 3,
+            "title": "شهادة المشاركة في الهاكاثون",
+            "organization": "IIT Delhi - Tryst'25 (Mappls Appathon)",
+            "date": "مارس 2025",
+            "description": "شاركت في Mappls Appathon الذي نظمته MapmyIndia في IIT Delhi خلال Tryst'25: An Ingenious Stewardship، من 10 إلى 12 مارس 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/TRYST'2025.png"
+        },
+        {
+            "id": 4,
+            "title": "شهادة المشاركة في الهاكاثون",
+            "organization": "IIIT Delhi - E-Summit 2025",
+            "date": "مارس 2025",
+            "description": "شاركت بنشاط في 'Hack for Impact' في E-Summit 2025 الذي نظمته Entrepreneurship Cell، IIIT Delhi، في الفترة من 21 إلى 22 مارس 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        }
+    ],
 
     "certificatesHead": "الشهادات",
-    "certificatesSub": "شهادات احترافية وإنجازات تثبت خبرتي",
+    "certificatesSub": "الشهادات المهنية والإنجازات التي تثبت خبرتي",
+
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Getting Started with Linux Fundamentals 9.1",
+            "issuer": "Red Hat Academy",
+            "date": "26 ديسمبر 2024 - 22 فبراير 2025",
+            "description": "أتممت دورة RH104 التي تغطي أساسيات Linux: الوصول للنظام، إدارة الملفات، نظم الملفات، الأذونات، تثبيت البرامج، الشبكات، وموارد النظام. تم الإنجاز بنسبة 100%.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
+            "skills": ["Linux", "File Systems", "User Permissions", "Software Packages", "Networking", "System Resources", "GNOME Desktop", "Command Line"]
+        },
+        {
+            "id": 2,
+            "title": "Full-stack Development with Django: Managing Migrations",
+            "issuer": "Coursera Project Network (via Pimpri Chinchwad University)",
+            "date": "7 مارس 2025",
+            "description": "أتممت مشروعًا إرشاديًا مدته ساعتان يركز على إدارة الهجرات في Django وقواعد البيانات. تعلمت إنشاء تطبيقات Django مع واجهة الإدارة، بناء وإرجاع الهجرات، إدارة النماذج، وعرض حالة المشاريع في لوحة تحكم.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Full-stack Development with Django.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Full-stack Development with Django.pdf",
+            "skills": ["Django", "Data Migration", "Database Development", "Back-End Web Development", "Server-Side Development", "Data Structures", "Relational Databases", "Full-Stack Web Development"]
+        },
+        {
+            "id": 3,
+            "title": "React with AI",
+            "issuer": "Internshala Trainings",
+            "date": "19 مايو 2025",
+            "description": "أتممت تدريبًا عبر الإنترنت لمدة 6 أسابيع يغطي أساسيات React، states & useState، components & props، styling، events & useRef، البرمجة الوظيفية مع hooks، React Router، ودمج AI. تم الاعتراف بي كأفضل أداء.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/React.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/src/assets/certificates/React.pdf",
+            "skills": ["React", "JavaScript", "Hooks", "React Router", "State Management", "Components & Props", "Styling", "AI Integration"]
+        },
+        {
+            "id": 4,
+            "title": "Red Hat Application Development I: Programming in Java EE 7.0",
+            "issuer": "Red Hat Academy",
+            "date": "15 مايو 2025 - 15 يوليو 2025",
+            "description": "أتممت دورة AD183 بنسبة 100%، تغطي تطوير تطبيقات المؤسسات باستخدام Java EE. تعلمت التطبيقات متعددة الطبقات، EJBs، JPA persistence، REST APIs، CDI، JMS، وأمان JAAS. حصلت على خبرة عملية في النشر على خوادم Red Hat JBoss EAP.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Java.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Java.pdf",
+            "skills": ["Java EE", "Enterprise Java Beans (EJB)", "Persistence (JPA)", "Entity Relationships", "REST APIs (JAX-RS)", "Contexts and Dependency Injection (CDI)", "Java Messaging Service (JMS)", "JAAS Security", "Multi-Tier Applications", "Red Hat JBoss EAP"]
+        },
+        {
+            "id": 5,
+            "title": "Node.js",
+            "issuer": "Internshala Trainings",
+            "date": "19 أغسطس 2025",
+            "description": "أتممت تدريبًا عبر الإنترنت لمدة 6 أسابيع يغطي أساسيات Node.js، البرمجة غير المتزامنة، Node modules، تطبيقات Express، ومشروع نهائي يربط تطبيق ويب بـ MongoDB باستخدام AJAX وNode modules. تم الاعتراف بي كأفضل أداء.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NODE js.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/NODE js.pdf",
+            "skills": ["Node.js", "JavaScript", "Asynchronous Programming", "Node Modules", "Express.js", "MongoDB", "AJAX", "Back-End Development"]
+        }
+    ],
 
     "experienceHead": "الخبرات",
     "experienceSub": "رحلتي المهنية وتجارب التعلم العملية",
 
+    "experiences": [
+        {
+            "id": 1,
+            "title": "متدرب تطوير ويب",
+            "company": "ShadowFox",
+            "location": "عن بعد",
+            "duration": "يونيو 2024 - يوليو 2024",
+            "type": "internship",
+            "description": "عملت كمتدرب تطوير ويب، واكتسبت خبرة عملية في بناء مواقع ويب متجاوبة وسهلة الاستخدام. ركزت على تطبيق مفاهيم frontend وbackend على مشاريع حقيقية.",
+            "responsibilities": [
+                "تصميم وتطوير صفحات ويب متجاوبة باستخدام HTML وCSS وJavaScript",
+                "دمج مكونات frontend مع APIs الخاصة بالbackend",
+                "التعاون مع الموجهين لتحسين وظائف الموقع",
+                "المساهمة في مناقشات الفريق وجلسات العصف الذهني",
+                "تصحيح الأخطاء وتحسين الأداء"
+            ],
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+            "achievements": [
+                "تم بناء ونشر موقع المشروع بنجاح",
+                "تحسين مهارات حل المشكلات وتصحيح الأخطاء",
+                "تلقي تقدير من الموجهين على جودة العمل"
+            ]
+        }
+    ],
+
     "projectsHead": "المشاريع",
-    "projectsSub": "إليك ما كنت أعمل عليه - عرض رحلتي ومهاراتي في التطوير",
-    "projectsNote": "مشاريع أخرى قادمة قريباً! أتعلم وأبني أشياء جديدة باستمرار.",
+    "projectsSub": "إليك ما كنت أعمل عليه - عرض رحلة تطويري ومهاراتي",
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "MediMapper",
+            "description": "منصة رعاية صحية ويب تساعد المرضى على تحديد الأمراض بناءً على الأعراض، توفر علاجات منزلية، وتمكن من التواصل الفوري بين الطبيب والمريض عبر الدردشة والمكالمات الفيديو.",
+            "longDescription": "MediMapper هي منصة رعاية صحية مصممة لجعل الرعاية الصحية عن بعد أكثر سهولة وكفاءة. يمكن للمرضى إدخال الأعراض لتحديد الأمراض المحتملة والحصول على علاجات منزلية. تتيح المنصة أيضًا التواصل الفوري الآمن بين الأطباء والمرضى عبر الدردشة ومكالمات الفيديو باستخدام WebRTC. تشمل الميزات الأساسية ملفات تعريف المستخدمين للمرضى والأطباء، الرسائل الفورية مع حفظ سجل الدردشة، وربط الأعراض بالأمراض.",
+            "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WebRTC"],
+            "imageUrl": "https://sohamkoli.netlify.app/assets/project1.png",
+            "demoUrl": "https://medimapper.gt.tc",
+            "githubUrl": "https://github.com/sohamkoli29/MediMapper",
+            "status": "completed",
+            "category": "web",
+            "features": [
+                "ربط الأعراض بالأمراض",
+                "اقتراح العلاجات المنزلية",
+                "تواصل الطبيب والمريض عبر الدردشة والمكالمات الفيديو",
+                "ملفات تعريف شخصية للمستخدمين",
+                "الرسائل الفورية مع حفظ سجل الدردشة",
+                "تسجيل دخول آمن للمرضى والأطباء"
+            ]
+        }
+    ],
+
+    "projectsNote": "المزيد من المشاريع قادم! أنا أتعلم وأبني أشياء جديدة باستمرار.",
 
     "errorMsg": "يرجى ملء جميع الحقول",
-    "errorReq": "فشل في إرسال الرسالة. حاول مرة أخرى لاحقاً.",
+    "errorReq": "فشل إرسال الرسالة. يرجى المحاولة لاحقًا.",
     "contactTitles": ["البريد الإلكتروني", "الهاتف", "الموقع"],
     "contactValues": ["sohamkoli29@gmail.com", "+91 7058260905", "Alibag Raigad, Maharastra, India"],
     "contactHead": "تواصل معي",
-    "contactDes": "هل لديك مشروع في ذهنك أو تريد فقط إلقاء التحية؟ يسعدني سماعك. لنصنع شيئاً رائعاً معاً.",
-    "contactSec": "لنتواصل",
+    "contactDes": "هل لديك مشروع في ذهنك أو ترغب فقط في قول مرحبًا؟ يسعدني الاستماع منك. دعنا نخلق شيئًا رائعًا معًا.",
+    "contactSec": "لنرتبط",
 
     "socialTitle": "تابعني",
-    "successMsg": "تم إرسال الرسالة بنجاح! سأرد عليك قريباً.",
-    "msgBtn": "إرسال الرسالة",
+    "successMsg": "تم إرسال الرسالة بنجاح! سأعود إليك قريبًا.",
+    "msgBtn": "إرسال رسالة",
     "name": "اسمك",
     "email": "بريدك الإلكتروني",
     "subject": "الموضوع",
     "textAera": "رسالتك",
-    "responseTitle": "سرعة الاستجابة",
-    "responseDes": "عادةً ما أستجيب خلال 24 ساعة. للاستفسارات العاجلة، لا تتردد في التواصل مباشرة عبر الهاتف أو LinkedIn.",
+    "responseTitle": "وقت استجابة سريع",
+    "responseDes": "عادةً أستجيب خلال 24 ساعة. للاستفسارات العاجلة، لا تتردد في التواصل مباشرة عبر الهاتف أو LinkedIn.",
     "responseTime": "متوسط وقت الاستجابة: 2-4 ساعات",
     "rights": "جميع الحقوق محفوظة.",
     "sourceBtn": "عرض المصدر",

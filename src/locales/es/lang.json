@@ -1,69 +1,130 @@
 {
     "logoFname": "Soham",
     "logoLname": "Koli",
-    "navList": ["Inicio", "Sobre mí", "Habilidades", "Certificados", "Logros", "Experiencia", "Proyectos", "Contacto"],
+    "navList": ["Inicio", "Acerca de", "Habilidades", "Certificados", "Logros", "Experiencia", "Proyectos", "Contacto"],
 
     "greeting": "Hola, soy",
-
     "homeHead": "Soham Koli",
-    "roleFullStack": "Full Stack Developer",
-    "roleFrontend": "Frontend Developer",
-    "roleBackend": "Backend Developer",
-    "roleReact": "React Developer",
-    "homeText": "Crafting digital experiences with modern technologies. Specialized in full-stack development with a passion for creating innovative solutions that make a difference.",
+    "roleFullStack": "Desarrollador Full Stack",
+    "roleFrontend": "Desarrollador Frontend",
+    "roleBackend": "Desarrollador Backend",
+    "roleReact": "Desarrollador React",
+    "homeText": "Creando experiencias digitales con tecnologías modernas. Especializado en desarrollo full-stack con pasión por crear soluciones innovadoras que marcan la diferencia.",
     "rolePrefix": "Un apasionado",
-    "viewWork": "Ver mis trabajos",
-    "getInTouch": "Contáctame",
+    "viewWork": "Ver mi trabajo",
+    "getInTouch": "Ponte en contacto",
     "scrollDown": "Desplázate para explorar",
 
-    "aboutHead": "Sobre mí",
+    "aboutHead": "Acerca de",
     "aboutEduHead": "Educación",
     "aboutEduH3": "Pimpri Chinchwad University",
     "aboutProgram": "B.Tech",
-    "aboutCourse": "Computer Science Engineering",
+    "aboutCourse": "Ingeniería en Ciencias de la Computación",
     "aboutCfHead": "Lo que sé",
-    "aboutCfH3": "Diseño web",
-    "aboutCfP": "Desarrollo web",
+    "aboutCfH3": "Diseño Web",
+    "aboutCfP": "Desarrollo Web",
     "aboutName": "Soham Suraj Koli",
-    "aboutBioH3": "Acerca de mí",
-    "aboutBioP": "Hi, I'm Soham Koli—a dedicated web developer who loves turning ideas into sleek, user-friendly digital experiences. I thrive on building responsive websites and web applications, blending creativity with modern frontend and backend tech to deliver solutions that are both functional and engaging.",
+    "aboutBioH3": "Sobre mí",
+    "aboutBioP": "Hola, soy Soham Koli—un desarrollador web dedicado que disfruta transformar ideas en experiencias digitales elegantes y fáciles de usar. Me apasiona crear sitios web y aplicaciones web responsivas, combinando creatividad con tecnologías modernas de frontend y backend para ofrecer soluciones funcionales y atractivas.",
     "aboutBtn": "Descargar CV",
 
     "skillsHead": "Habilidades",
-    "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE JS", "PYTHON", "MYSQL", "JAVA", "WEB DESIGN"],
+    "skills": ["HTML","CSS","JAVASCRIPT","REACT","NODE JS","PYTHON","MYSQL","JAVA","WEB DESIGN"],
 
     "achievementsHead": "Logros",
     "achievementsSub": "Mi camino de aprendizaje y participación en varios eventos y proyectos",
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Certificado de Desarrollo Web",
+            "organization": "Internshala Trainings",
+            "date": "Enero 2024",
+            "description": "Completé con éxito una capacitación en línea de 8 semanas en Desarrollo Web, cubriendo HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React y un módulo de Proyecto Final.",
+            "type": "completion",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Web Development with AI Training.png"
+        },
+        {
+            "id": 2,
+            "title": "Certificado de Participación en Hackathon",
+            "organization": "Amity University Mumbai",
+            "date": "Enero 2025",
+            "description": "Participé en NIRMAN ‘25, un hackathon de 48 horas organizado en Amity School of Engineering and Technology, Amity University Mumbai, del 28 al 30 de enero de 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NIRMAN2025.png"
+        },
+        {
+            "id": 3,
+            "title": "Certificado de Participación en Hackathon",
+            "organization": "IIT Delhi - Tryst'25 (Mappls Appathon)",
+            "date": "Marzo 2025",
+            "description": "Participé en el Mappls Appathon organizado por MapmyIndia en IIT Delhi durante Tryst'25: An Ingenious Stewardship, realizado del 10 al 12 de marzo de 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/TRYST'2025.png"
+        },
+        {
+            "id": 4,
+            "title": "Certificado de Participación en Hackathon",
+            "organization": "IIIT Delhi - E-Summit 2025",
+            "date": "Marzo 2025",
+            "description": "Participé activamente en 'Hack for Impact' en E-Summit 2025 organizado por el Entrepreneurship Cell, IIIT Delhi, realizado el 21–22 de marzo de 2025.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        }
+    ],
 
-    "certificatesHead": "Certificados",
+    "certificatesHead": "Certificaciones",
     "certificatesSub": "Certificaciones profesionales y logros que validan mi experiencia",
 
     "experienceHead": "Experiencia",
     "experienceSub": "Mi trayectoria profesional y experiencias prácticas de aprendizaje",
+    "experiences": [
+        {
+            "id": 1,
+            "title": "Prácticas de Desarrollo Web",
+            "company": "ShadowFox",
+            "location": "Remoto",
+            "duration": "Junio 2024 - Julio 2024",
+            "type": "internship",
+            "description": "Trabajé como becario en desarrollo web, obteniendo experiencia práctica en la creación de sitios web responsivos y fáciles de usar. Me enfoqué en aplicar conceptos de frontend y backend en proyectos reales.",
+            "responsibilities": [
+                "Diseñé y desarrollé páginas web responsivas usando HTML, CSS y JavaScript",
+                "Integré componentes frontend con APIs backend",
+                "Colaboré con mentores para mejorar la funcionalidad del sitio web",
+                "Contribuí en discusiones y sesiones de ideas del equipo",
+                "Depuré y optimicé código para un mejor rendimiento"
+            ],
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+            "achievements": [
+                "Construí y desplegué con éxito un sitio web de proyecto",
+                "Mejoré mis habilidades de resolución de problemas y depuración",
+                "Recibí aprecio de los mentores por la calidad del trabajo"
+            ]
+        }
+    ],
 
     "projectsHead": "Proyectos",
-    "projectsSub": "Esto es en lo que he estado trabajando - mostrando mi camino y habilidades de desarrollo",
-    "projectsNote": "¡Más proyectos próximamente! Estoy aprendiendo y creando cosas nuevas constantemente.",
+    "projectsSub": "Esto es en lo que he estado trabajando - mostrando mi camino de desarrollo y habilidades",
+    "projectsNote": "¡Más proyectos próximamente! Estoy aprendiendo y construyendo cosas nuevas constantemente.",
 
-    "errorMsg": "Por favor complete todos los campos",
-    "errorReq": "No se pudo enviar el mensaje. Inténtalo de nuevo más tarde.",
-    "contactTitles": ["Correo", "Teléfono", "Ubicación"],
+    "errorMsg": "Por favor, completa todos los campos",
+    "errorReq": "Error al enviar el mensaje. Inténtalo de nuevo más tarde.",
+    "contactTitles": ["Correo electrónico", "Teléfono", "Ubicación"],
     "contactValues": ["sohamkoli29@gmail.com", "+91 7058260905", "Alibag Raigad, Maharastra, India"],
-    "contactHead": "Contáctame",
-    "contactDes": "¿Tienes un proyecto en mente o simplemente quieres saludar? Me encantaría saber de ti. Hagamos algo increíble juntos.",
+    "contactHead": "Ponte en contacto",
+    "contactDes": "¿Tienes un proyecto en mente o simplemente quieres saludar? Me encantaría saber de ti. Vamos a crear algo increíble juntos.",
     "contactSec": "Conectemos",
 
     "socialTitle": "Sígueme",
-    "successMsg": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "successMsg": "¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.",
     "msgBtn": "Enviar mensaje",
     "name": "Tu nombre",
     "email": "Tu correo electrónico",
     "subject": "Asunto",
     "textAera": "Tu mensaje",
-    "responseTitle": "Tiempo de respuesta rápida",
-    "responseDes": "Normalmente respondo dentro de 24 horas. Para consultas urgentes, no dudes en contactarme directamente por teléfono o LinkedIn.",
-    "responseTime": "Tiempo de respuesta promedio: 2-4 horas",
-    "rights": "Todos los derechos reservados.",
-    "sourceBtn": "Ver código fuente",
+    "responseTitle": "Tiempo de respuesta rápido",
+    "responseDes": "Normalmente respondo en 24 horas. Para consultas urgentes, no dudes en comunicarte directamente por teléfono o LinkedIn.",
+    "responseTime": "Tiempo medio de respuesta: 2-4 horas",
+    "rights": " Todos los derechos reservados.",
+    "sourceBtn": "Ver código",
     "viewBtn": "Ver proyecto"
 }

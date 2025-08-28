@@ -1,67 +1,207 @@
 {
     "logoFname": "Soham",
     "logoLname": "Koli",
-    "navList": ["होम", "मेरे बारे में", "कौशल", "प्रमाणपत्र", "उपलब्धियां", "अनुभव", "प्रोजेक्ट्स", "संपर्क"],
+    "navList": ["Home", "About", "Skills", "Certificates", "Achievements", "Experience", "Projects", "Contact"],
 
     "greeting": "नमस्ते, मैं हूँ",
-
+    
     "homeHead": "Soham Koli",
-    "roleFullStack": "Full Stack Developer",
-    "roleFrontend": "Frontend Developer",
-    "roleBackend": "Backend Developer",
-    "roleReact": "React Developer",
-    "homeText": "Crafting digital experiences with modern technologies. Specialized in full-stack development with a passion for creating innovative solutions that make a difference.",
-    "rolePrefix": "एक जुनूनी",
+    "roleFullStack": "Full Stack Devloper",
+    "roleFrontend": "Frontend Devloper",
+    "roleBackend": "Backend Devloper",
+    "roleReact": "React Devloper",
+    "homeText": "आधुनिक तकनीकों के साथ डिजिटल अनुभव तैयार करना। फुल-स्टैक विकास में विशेषज्ञता और नवाचारी समाधानों को बनाने का जुनून।",
+    "rolePrefix": "एक उत्साही",
     "viewWork": "मेरा काम देखें",
     "getInTouch": "संपर्क करें",
-    "scrollDown": "और जानने के लिए नीचे स्क्रॉल करें",
+    "scrollDown": "अन्वेषण के लिए स्क्रॉल करें",
 
-    "aboutHead": "मेरे बारे में",
+    "aboutHead": "परिचय",
     "aboutEduHead": "शिक्षा",
     "aboutEduH3": "Pimpri Chinchwad University",
     "aboutProgram": "B.Tech",
     "aboutCourse": "Computer Science Engineering",
     "aboutCfHead": "मैं क्या जानता हूँ",
-    "aboutCfH3": "वेब डिज़ाइन",
-    "aboutCfP": "वेब डेवलपमेंट",
+    "aboutCfH3": "Web Design",
+    "aboutCfP": "Web Devlopment",
     "aboutName": "Soham Suraj Koli",
     "aboutBioH3": "मेरे बारे में",
-    "aboutBioP": "Hi, I'm Soham Koli—a dedicated web developer who loves turning ideas into sleek, user-friendly digital experiences. I thrive on building responsive websites and web applications, blending creativity with modern frontend and backend tech to deliver solutions that are both functional and engaging.",
-    "aboutBtn": "सीवी डाउनलोड करें",
+    "aboutBioP": "नमस्ते, मैं Soham Koli हूँ—एक समर्पित वेब डेवलपर जो विचारों को सुंदर, उपयोगकर्ता-अनुकूल डिजिटल अनुभवों में बदलना पसंद करता है। मैं प्रतिक्रियाशील वेबसाइटें और वेब एप्लिकेशन बनाना पसंद करता हूँ, और आधुनिक Frontend और Backend तकनीकों के साथ रचनात्मकता को मिलाकर व्यावहारिक और आकर्षक समाधान प्रदान करता हूँ।",
+    "aboutBtn": "CV डाउनलोड करें",
 
     "skillsHead": "कौशल",
     "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE JS", "PYTHON", "MYSQL", "JAVA", "WEB DESIGN"],
 
-    "achievementsHead": "उपलब्धियां",
-    "achievementsSub": "मेरी सीखने की यात्रा और विभिन्न आयोजनों व प्रोजेक्ट्स में भागीदारी",
+    "achievementsHead": "उपलब्धियाँ",
+    "achievementsSub": "मेरी सीखने की यात्रा और विभिन्न घटनाओं और परियोजनाओं में भागीदारी",
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Web Development Certificate",
+            "organization": "Internshala Trainings",
+            "date": "जनवरी 2024",
+            "description": "मैंने 8-सप्ताह का ऑनलाइन वेब डेवलपमेंट प्रशिक्षण सफलतापूर्वक पूरा किया, जिसमें HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React और अंतिम परियोजना शामिल थी।",
+            "type": "completion",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Web Development with AI Training.png"
+        },
+        {
+            "id": 2,
+            "title": "Hackathon Participation Certificate",
+            "organization": "Amity University Mumbai",
+            "date": "जनवरी 2025",
+            "description": "मैंने NIRMAN ‘25 में भाग लिया, जो Amity School of Engineering and Technology, Amity University Mumbai में 28 से 30 जनवरी 2025 तक आयोजित 48-घंटे का हैकाथॉन था।",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NIRMAN2025.png"
+        },
+        {
+            "id": 3,
+            "title": "Hackathon Participation Certificate",
+            "organization": "IIT Delhi - Tryst'25 (Mappls Appathon)",
+            "date": "मार्च 2025",
+            "description": "मैंने IIT Delhi में Tryst'25: An Ingenious Stewardship के दौरान MapmyIndia द्वारा आयोजित Mappls Appathon में भाग लिया, जो 10 से 12 मार्च 2025 तक हुआ।",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/TRYST'2025.png"
+        },
+        {
+            "id": 4,
+            "title": "Hackathon Participation Certificate",
+            "organization": "IIIT Delhi - E-Summit 2025",
+            "date": "मार्च 2025",
+            "description": "मैंने IIIT Delhi के Entrepreneurship Cell द्वारा आयोजित 'Hack for Impact' में सक्रिय रूप से भाग लिया, जो 21–22 मार्च 2025 को आयोजित हुआ।",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        }
+    ],
 
     "certificatesHead": "प्रमाणपत्र",
-    "certificatesSub": "पेशेवर प्रमाणपत्र और उपलब्धियां जो मेरी विशेषज्ञता को मान्यता देती हैं",
+    "certificatesSub": "पेशेवर प्रमाणपत्र और उपलब्धियाँ जो मेरी विशेषज्ञता को प्रमाणित करती हैं",
+
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Getting Started with Linux Fundamentals 9.1",
+            "issuer": "Red Hat Academy",
+            "date": "26 दिसंबर 2024 - 22 फरवरी 2025",
+            "description": "मैंने RH104 कोर्स पूरा किया जिसमें Linux की मूल बातें शामिल थीं: सिस्टम एक्सेस, फ़ाइल प्रबंधन, फ़ाइल सिस्टम, अनुमतियाँ, सॉफ़्टवेयर इंस्टॉलेशन, नेटवर्किंग और सिस्टम संसाधन। 100% पूर्णता प्राप्त की।",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
+            "skills": ["Linux", "File Systems", "User Permissions", "Software Packages", "Networking", "System Resources", "GNOME Desktop", "Command Line"]
+        },
+        {
+            "id": 2,
+            "title": "Full-stack Development with Django: Managing Migrations",
+            "issuer": "Coursera Project Network (via Pimpri Chinchwad University)",
+            "date": "7 मार्च 2025",
+            "description": "मैंने 2-घंटे की निर्देशित परियोजना पूरी की, जो Django माइग्रेशन और डेटाबेस प्रबंधन पर केंद्रित थी। Django ऐप्स बनाना, एडमिन UI का उपयोग करना, माइग्रेशन बनाना और रोलबैक करना, मॉडल्स प्रबंधित करना और डैशबोर्ड में पोर्टफोलियो स्थिति दिखाना सीखा।",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Full-stack Development with Django.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Full-stack Development with Django.pdf",
+            "skills": ["Django", "Data Migration", "Database Development", "Back-End Web Development", "Server-Side Development", "Data Structures", "Relational Databases", "Full-Stack Web Development"]
+        },
+        {
+            "id": 3,
+            "title": "React with AI",
+            "issuer": "Internshala Trainings",
+            "date": "19 मई 2025",
+            "description": "मैंने 6-सप्ताह का ऑनलाइन प्रशिक्षण पूरा किया जिसमें React के मूल, states & useState, components & props, styling, events & useRef, hooks के साथ functional programming, React Router और AI इंटीग्रेशन शामिल थे। मुझे टॉप परफ़ॉर्मर के रूप में मान्यता मिली।",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/React.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/src/assets/certificates/React.pdf",
+            "skills": ["React", "JavaScript", "Hooks", "React Router", "State Management", "Components & Props", "Styling", "AI Integration"]
+        },
+        {
+            "id": 4,
+            "title": "Red Hat Application Development I: Programming in Java EE 7.0",
+            "issuer": "Red Hat Academy",
+            "date": "15 मई 2025 - 15 जुलाई 2025",
+            "description": "मैंने AD183 कोर्स 100% स्कोर के साथ पूरा किया, जिसमें Java EE के साथ एंटरप्राइज एप्लिकेशन डेवलपमेंट शामिल था। Multi-tiered एप्लिकेशन, EJBs, JPA persistence, REST APIs, CDI, JMS और JAAS Security सीखा। Red Hat JBoss EAP सर्वर्स पर तैनाती का अनुभव प्राप्त किया।",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Java.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Java.pdf",
+            "skills": ["Java EE", "Enterprise Java Beans (EJB)", "Persistence (JPA)", "Entity Relationships", "REST APIs (JAX-RS)", "Contexts and Dependency Injection (CDI)", "Java Messaging Service (JMS)", "JAAS Security", "Multi-Tier Applications", "Red Hat JBoss EAP"]
+        },
+        {
+            "id": 5,
+            "title": "Node.js",
+            "issuer": "Internshala Trainings",
+            "date": "19 अगस्त 2025",
+            "description": "मैंने 6-सप्ताह का ऑनलाइन प्रशिक्षण पूरा किया जिसमें Node.js मूल बातें, Asynchronous Programming, Node Modules, Express web applications, और एक फाइनल प्रोजेक्ट जिसमें AJAX और Node modules का उपयोग करके MongoDB से कनेक्ट करना शामिल था। मुझे टॉप परफ़ॉर्मर के रूप में मान्यता मिली।",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NODE js.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/NODE js.pdf",
+            "skills": ["Node.js", "JavaScript", "Asynchronous Programming", "Node Modules", "Express.js", "MongoDB", "AJAX", "Back-End Development"]
+        }
+    ],
 
     "experienceHead": "अनुभव",
-    "experienceSub": "मेरी पेशेवर यात्रा और व्यावहारिक सीखने के अनुभव",
+    "experienceSub": "मेरी पेशेवर यात्रा और व्यावहारिक सीखने का अनुभव",
 
-    "projectsHead": "प्रोजेक्ट्स",
-    "projectsSub": "यह है जिस पर मैंने काम किया है - मेरी डेवलपमेंट यात्रा और कौशल को दर्शाता है",
-    "projectsNote": "और प्रोजेक्ट्स जल्द ही आ रहे हैं! मैं लगातार सीख रहा हूँ और नई चीजें बना रहा हूँ।",
+    "experiences": [
+        {
+            "id": 1,
+            "title": "वेब डेवलपमेंट इंटर्न",
+            "company": "ShadowFox",
+            "location": "रिमोट",
+            "duration": "जून 2024 - जुलाई 2024",
+            "type": "internship",
+            "description": "मैंने वेब डेवलपमेंट इंटर्न के रूप में काम किया, और प्रतिक्रियाशील और उपयोगकर्ता-अनुकूल वेबसाइट बनाने का व्यावहारिक अनुभव प्राप्त किया। Frontend और Backend अवधारणाओं को वास्तविक परियोजनाओं में लागू किया।",
+            "responsibilities": [
+                "HTML, CSS और JavaScript का उपयोग करके प्रतिक्रियाशील वेब पेज डिजाइन और विकसित करना",
+                "Frontend घटकों को Backend APIs के साथ एकीकृत करना",
+                "वेबसाइट कार्यक्षमता में सुधार के लिए मेंटर्स के साथ सहयोग करना",
+                "टीम चर्चाओं और ब्रेनस्टॉर्मिंग सत्रों में योगदान देना",
+                "बेहतर प्रदर्शन के लिए कोड डिबग और ऑप्टिमाइज़ करना"
+            ],
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+            "achievements": [
+                "प्रोजेक्ट वेबसाइट सफलतापूर्वक बनाई और डिप्लॉय की",
+                "समस्या-समाधान और डिबगिंग कौशल में सुधार",
+                "गुणवत्ता कार्य के लिए मेंटर्स से सराहना प्राप्त की"
+            ]
+        }
+    ],
+
+    "projectsHead": "परियोजनाएँ",
+    "projectsSub": "यहाँ आप देख सकते हैं कि मैं क्या कर रहा हूँ - मेरी विकास यात्रा और कौशल का प्रदर्शन",
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "MediMapper",
+            "description": "एक वेब-आधारित स्वास्थ्य देखभाल प्लेटफ़ॉर्म जो रोगियों को लक्षणों के आधार पर रोग पहचानने में मदद करता है, घर पर उपचार सुझाता है, और डॉक्टर-रोगी संचार को चैट और वीडियो कॉल के माध्यम से सक्षम बनाता है।",
+            "longDescription": "MediMapper एक स्वास्थ्य देखभाल प्लेटफ़ॉर्म है जो दूरस्थ स्वास्थ्य सेवा को अधिक सुलभ और कुशल बनाने के लिए डिज़ाइन किया गया है। रोगी संभावित रोगों की पहचान करने और घरेलू उपचार प्राप्त करने के लिए लक्षण दर्ज कर सकते हैं। प्लेटफ़ॉर्म WebRTC का उपयोग करके डॉक्टर और रोगी के बीच सुरक्षित रीयल-टाइम संचार की सुविधा भी प्रदान करता है। इसमें मरीज और डॉक्टर के लिए व्यक्तिगत प्रोफाइल, स्टोर की गई चैट हिस्ट्री के साथ रीयल-टाइम मैसेजिंग, और लक्षण-से-रोग मैपिंग जैसी मुख्य विशेषताएँ शामिल हैं।",
+            "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WebRTC"],
+            "imageUrl": "https://sohamkoli.netlify.app/assets/project1.png",
+            "demoUrl": "https://medimapper.gt.tc",
+            "githubUrl": "https://github.com/sohamkoli29/MediMapper",
+            "status": "completed",
+            "category": "web",
+            "features": [
+                "लक्षण-से-रोग मैपिंग",
+                "घर पर उपचार के सुझाव",
+                "डॉक्टर और रोगी के बीच चैट और वीडियो कॉल",
+                "व्यक्तिगत उपयोगकर्ता प्रोफाइल",
+                "स्टोर की गई चैट हिस्ट्री के साथ रीयल-टाइम मैसेजिंग",
+                "रोगियों और डॉक्टरों के लिए सुरक्षित लॉगिन"
+            ]
+        }
+    ],
+
+    "projectsNote": "और परियोजनाएँ जल्द ही आने वाली हैं! मैं लगातार सीख रहा हूँ और नई चीजें बना रहा हूँ।",
 
     "errorMsg": "कृपया सभी फ़ील्ड भरें",
     "errorReq": "संदेश भेजने में विफल। कृपया बाद में पुनः प्रयास करें।",
     "contactTitles": ["ईमेल", "फ़ोन", "स्थान"],
     "contactValues": ["sohamkoli29@gmail.com", "+91 7058260905", "Alibag Raigad, Maharastra, India"],
     "contactHead": "संपर्क करें",
-    "contactDes": "क्या आपके मन में कोई प्रोजेक्ट है या बस हेलो कहना चाहते हैं? मुझे आपसे सुनकर खुशी होगी। आइए मिलकर कुछ शानदार बनाते हैं।",
-    "contactSec": "कनेक्ट हों",
+    "contactDes": "क्या आपके पास कोई प्रोजेक्ट है या बस हेलो कहना चाहते हैं? मैं आपसे सुनना पसंद करूंगा। चलिए कुछ अद्भुत बनाते हैं।",
+    "contactSec": "संपर्क में रहें",
 
     "socialTitle": "मुझे फॉलो करें",
-    "successMsg": "संदेश सफलतापूर्वक भेजा गया! मैं जल्द ही आपसे संपर्क करूंगा।",
+    "successMsg": "संदेश सफलतापूर्वक भेजा गया! मैं जल्द ही जवाब दूँगा।",
     "msgBtn": "संदेश भेजें",
     "name": "आपका नाम",
     "email": "आपका ईमेल",
     "subject": "विषय",
     "textAera": "आपका संदेश",
     "responseTitle": "त्वरित प्रतिक्रिया समय",
-    "responseDes": "मैं आमतौर पर 24 घंटों के भीतर प्रतिक्रिया देता हूँ। तुरंत पूछताछ के लिए, आप सीधे फ़ोन या LinkedIn पर संपर्क कर सकते हैं।",
+    "responseDes": "मैं आमतौर पर 24 घंटे के भीतर जवाब देता हूँ। तात्कालिक पूछताछ के लिए, सीधे फोन या LinkedIn पर संपर्क करें।",
     "responseTime": "औसत प्रतिक्रिया समय: 2-4 घंटे",
     "rights": "सर्वाधिकार सुरक्षित।",
     "sourceBtn": "स्रोत देखें",

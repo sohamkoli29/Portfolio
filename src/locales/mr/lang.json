@@ -1,65 +1,209 @@
 {
-  "navLogo": {
     "logoFname": "Soham",
-    "logoLname": "Koli"
-  },
-  "navItems": {
-    "Home": "मुख्यपृष्ठ",
-    "About": "माझ्याबद्दल",
-    "Skills": "कौशल्ये",
-    "Education": "शिक्षण",
-    "Experience": "अनुभव",
-    "Projects": "प्रकल्प",
-    "Achievements": "यश",
-    "Certificates": "प्रमाणपत्रे",
-    "Contact": "संपर्क"
-  },
-  "hero": {
-    "title": "मी आहे",
-    "roles": ["React Developer", "Frontend Developer", "Web Developer"],
-    "description": "वेब विकासामध्ये 1 वर्षाचा अनुभव असलेला, मी फ्रंटएंड डेव्हलपमेंटमध्ये विशेष प्राविण्य मिळवले आहे. माझे लक्ष कार्यक्षम, वापरण्यास सुलभ आणि दृष्टिकोनातून आकर्षक वेब सोल्यूशन्स तयार करण्यावर आहे.",
-    "contactBtn": "संपर्क साधा"
-  },
-  "about": {
-    "title": "माझ्याबद्दल",
-    "subtitle": "मला अधिक जाणून घ्या",
-    "description": "मी एक प्रामाणिक आणि मेहनती वेब डेव्हलपर आहे, जो नेहमी शिकण्यास उत्सुक आहे. मी कार्यक्षम आणि आकर्षक वेब अॅप्लिकेशन्स तयार करण्याचा प्रयत्न करतो. माझे उद्दिष्ट माझ्या कौशल्यांचा विकास करणे आणि नाविन्यपूर्ण प्रकल्पांमध्ये योगदान देणे आहे."
-  },
-  "skills": {
-    "title": "कौशल्ये",
-    "subtitle": "मी काय करू शकतो"
-  },
-  "education": {
-    "title": "शिक्षण",
-    "subtitle": "माझा शैक्षणिक प्रवास"
-  },
-  "experience": {
-    "title": "अनुभव",
-    "subtitle": "मी काय केले आहे"
-  },
-  "projects": {
-    "title": "प्रकल्प",
-    "subtitle": "माझे काम"
-  },
-  "achievements": {
-    "title": "यश",
-    "subtitle": "माझी उपलब्धी"
-  },
-  "certificates": {
-    "title": "प्रमाणपत्रे",
-    "subtitle": "माझे क्रेडेन्शियल्स"
-  },
-  "contact": {
-    "title": "संपर्क",
-    "subtitle": "माझ्याशी संपर्क साधा",
-    "form": {
-      "name": "नाव",
-      "email": "ईमेल",
-      "message": "संदेश",
-      "send": "संदेश पाठवा"
-    }
-  },
-  "footer": {
-    "rights": "सर्व हक्क राखीव"
-  }
+    "logoLname": "Koli",
+    "navList": ["Home", "About", "Skills", "Certificates", "Achievements", "Experience", "Projects", "Contact"],
+
+    "greeting": "नमस्कार, मी",
+    
+    "homeHead": "Soham Koli",
+    "roleFullStack": "Full Stack Devloper",
+    "roleFrontend": "Frontend Devloper",
+    "roleBackend": "Backend Devloper",
+    "roleReact": "React Devloper",
+    "homeText": "आधुनिक तंत्रज्ञानासह डिजिटल अनुभव तयार करणे. फुल-स्टॅक विकासात कौशल्य आणि नाविन्यपूर्ण उपाय तयार करण्याची आवड.",
+    "rolePrefix": "एक उत्साही",
+    "viewWork": "माझे काम पहा",
+    "getInTouch": "संपर्क करा",
+    "scrollDown": "अन्वेषणासाठी स्क्रोल करा",
+
+    "aboutHead": "माहिती",
+    "aboutEduHead": "शिक्षण",
+    "aboutEduH3": "Pimpri Chinchwad University",
+    "aboutProgram": "B.Tech",
+    "aboutCourse": "Computer Science Engineering",
+    "aboutCfHead": "मी काय जाणतो",
+    "aboutCfH3": "Web Design",
+    "aboutCfP": "Web Devlopment",
+    "aboutName": "Soham Suraj Koli",
+    "aboutBioH3": "माझ्याबद्दल",
+    "aboutBioP": "नमस्कार, मी Soham Koli — एक समर्पित वेब डेव्हलपर जो कल्पना सुंदर आणि वापरकर्ता-अनुकूल डिजिटल अनुभवांमध्ये रूपांतरित करण्यास आवडतो. मी प्रतिसादक्षम वेबसाइट्स आणि वेब अ‍ॅप्लिकेशन्स तयार करण्यात आनंद घेतो, आणि आधुनिक Frontend व Backend तंत्रज्ञानासह सर्जनशीलतेला मिसळून कार्यक्षम आणि आकर्षक उपाय देतो.",
+    "aboutBtn": "CV डाउनलोड करा",
+
+    "skillsHead": "कौशल्ये",
+    "skills": ["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE JS", "PYTHON", "MYSQL", "JAVA", "WEB DESIGN"],
+
+    "achievementsHead": "उपलब्ध्या",
+    "achievementsSub": "माझ्या शिकण्याच्या प्रवासातील आणि विविध कार्यक्रम व प्रकल्पांमध्ये सहभागी होण्याचे अनुभव",
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Web Development Certificate",
+            "organization": "Internshala Trainings",
+            "date": "जानेवारी 2024",
+            "description": "मी यशस्वीरित्या 8 आठवड्यांचे ऑनलाइन वेब डेव्हलपमेंट प्रशिक्षण पूर्ण केले, ज्यामध्ये HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React आणि अंतिम प्रोजेक्ट समाविष्ट होते.",
+            "type": "completion",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Web Development with AI Training.png"
+        },
+        {
+            "id": 2,
+            "title": "Hackathon Participation Certificate",
+            "organization": "Amity University Mumbai",
+            "date": "जानेवारी 2025",
+            "description": "मी NIRMAN ‘25 मध्ये सहभागी झालो, जो Amity School of Engineering and Technology, Amity University Mumbai मध्ये 28 ते 30 जानेवारी 2025 दरम्यान 48 तासांचा हॅकाथॉन होता.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NIRMAN2025.png"
+        },
+        {
+            "id": 3,
+            "title": "Hackathon Participation Certificate",
+            "organization": "IIT Delhi - Tryst'25 (Mappls Appathon)",
+            "date": "मार्च 2025",
+            "description": "मी IIT Delhi मध्ये Tryst'25: An Ingenious Stewardship दरम्यान MapmyIndia द्वारे आयोजित Mappls Appathon मध्ये सहभागी झालो, जे 10 ते 12 मार्च 2025 दरम्यान झाले.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/TRYST'2025.png"
+        },
+        {
+            "id": 4,
+            "title": "Hackathon Participation Certificate",
+            "organization": "IIIT Delhi - E-Summit 2025",
+            "date": "मार्च 2025",
+            "description": "मी IIIT Delhi च्या Entrepreneurship Cell द्वारे आयोजित 'Hack for Impact' मध्ये सक्रियपणे सहभागी झालो, जे 21–22 मार्च 2025 रोजी झाले.",
+            "type": "participation",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        }
+    ],
+
+    "certificatesHead": "प्रमाणपत्रे",
+    "certificatesSub": "व्यावसायिक प्रमाणपत्रे आणि उपलब्ध्या ज्या माझ्या कौशल्याची पुष्टी करतात",
+
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Getting Started with Linux Fundamentals 9.1",
+            "issuer": "Red Hat Academy",
+            "date": "26 डिसेंबर 2024 - 22 फेब्रुवारी 2025",
+            "description": "मी RH104 कोर्स पूर्ण केला ज्यात Linux ची मूलभूत माहिती समाविष्ट होती: सिस्टम ऍक्सेस, फाईल मॅनेजमेंट, फाईल सिस्टम, परवानग्या, सॉफ्टवेअर इंस्टॉलेशन, नेटवर्किंग आणि सिस्टम संसाधने. 100% पूर्णता प्राप्त केली.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
+            "skills": ["Linux", "File Systems", "User Permissions", "Software Packages", "Networking", "System Resources", "GNOME Desktop", "Command Line"]
+        },
+        {
+            "id": 2,
+            "title": "Full-stack Development with Django: Managing Migrations",
+            "issuer": "Coursera Project Network (via Pimpri Chinchwad University)",
+            "date": "7 मार्च 2025",
+            "description": "मी 2 तासांची मार्गदर्शित प्रकल्प पूर्ण केली, जी Django माइग्रेशन आणि डेटाबेस मॅनेजमेंटवर केंद्रित होती. Django अॅप्स तयार करणे, अ‍ॅडमिन UI वापरणे, माइग्रेशन तयार करणे व रोलबॅक करणे, मॉडेल्स व्यवस्थापित करणे आणि डॅशबोर्डमध्ये पोर्टफोलिओ स्थिती दर्शविणे शिकलो.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Full-stack Development with Django.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Full-stack Development with Django.pdf",
+            "skills": ["Django", "Data Migration", "Database Development", "Back-End Web Development", "Server-Side Development", "Data Structures", "Relational Databases", "Full-Stack Web Development"]
+        },
+        {
+            "id": 3,
+            "title": "React with AI",
+            "issuer": "Internshala Trainings",
+            "date": "19 मे 2025",
+            "description": "मी 6 आठवड्यांचे ऑनलाइन प्रशिक्षण पूर्ण केले ज्यात React मूलभूत, states & useState, components & props, styling, events & useRef, hooks सह functional programming, React Router आणि AI इंटिग्रेशन यांचा समावेश होता. मला टॉप परफॉर्मर म्हणून मान्यता मिळाली.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/React.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/src/assets/certificates/React.pdf",
+            "skills": ["React", "JavaScript", "Hooks", "React Router", "State Management", "Components & Props", "Styling", "AI Integration"]
+        },
+        {
+            "id": 4,
+            "title": "Red Hat Application Development I: Programming in Java EE 7.0",
+            "issuer": "Red Hat Academy",
+            "date": "15 मे 2025 - 15 जुलै 2025",
+            "description": "मी AD183 कोर्स 100% गुणांसह पूर्ण केला, ज्यात Java EE सह एंटरप्राइझ अॅप्लिकेशन डेव्हलपमेंट समाविष्ट होते. Multi-tiered अॅप्लिकेशन्स, EJBs, JPA persistence, REST APIs, CDI, JMS आणि JAAS Security शिकलो. Red Hat JBoss EAP सर्व्हर्सवर तैनातीचा अनुभव मिळाला.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Java.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Java.pdf",
+            "skills": ["Java EE", "Enterprise Java Beans (EJB)", "Persistence (JPA)", "Entity Relationships", "REST APIs (JAX-RS)", "Contexts and Dependency Injection (CDI)", "Java Messaging Service (JMS)", "JAAS Security", "Multi-Tier Applications", "Red Hat JBoss EAP"]
+        },
+        {
+            "id": 5,
+            "title": "Node.js",
+            "issuer": "Internshala Trainings",
+            "date": "19 ऑगस्ट 2025",
+            "description": "मी 6 आठवड्यांचे ऑनलाइन प्रशिक्षण पूर्ण केले ज्यात Node.js मूलभूत, Asynchronous Programming, Node Modules, Express web applications, आणि AJAX व Node modules वापरून MongoDB शी कनेक्ट करणारा फाइनल प्रोजेक्ट समाविष्ट होता. मला टॉप परफॉर्मर म्हणून मान्यता मिळाली.",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NODE js.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/NODE js.pdf",
+            "skills": ["Node.js", "JavaScript", "Asynchronous Programming", "Node Modules", "Express.js", "MongoDB", "AJAX", "Back-End Development"]
+        }
+    ],
+
+    "experienceHead": "अनुभव",
+    "experienceSub": "माझा व्यावसायिक प्रवास आणि व्यावहारिक शिकण्याचा अनुभव",
+
+    "experiences": [
+        {
+            "id": 1,
+            "title": "वेब डेव्हलपमेंट इंटर्न",
+            "company": "ShadowFox",
+            "location": "Remote",
+            "duration": "जून 2024 - जुलै 2024",
+            "type": "internship",
+            "description": "मी वेब डेव्हलपमेंट इंटर्न म्हणून काम केले आणि प्रतिसादक्षम व वापरकर्ता-अनुकूल वेबसाइट तयार करण्याचा व्यावहारिक अनुभव मिळवला. Frontend व Backend संकल्पना प्रत्यक्ष प्रोजेक्ट्समध्ये लागू केल्या.",
+            "responsibilities": [
+                "HTML, CSS आणि JavaScript वापरून प्रतिसादक्षम वेबपेज डिझाइन व डेव्हलप करणे",
+                "Frontend घटक Backend APIs सोबत एकत्र करणे",
+                "वेबसाइट कार्यक्षमता सुधारण्यासाठी मेंटर्ससोबत सहकार्य करणे",
+                "टीम चर्चांमध्ये आणि ब्रेनस्टॉर्मिंग सत्रात योगदान देणे",
+                "कोड डिबग व ऑप्टिमाइझ करणे"
+            ],
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+            "achievements": [
+                "प्रोजेक्ट वेबसाइट यशस्वीरित्या तयार व डिप्लॉय केली",
+                "समस्या सोडवण्याची आणि डिबगिंग कौशल्ये सुधारली",
+                "गुणवत्तापूर्ण कामाबद्दल मेंटर्स कडून कौतुक मिळाले"
+            ]
+        }
+    ],
+
+    "projectsHead": "प्रोजेक्ट्स",
+    "projectsSub": "येथे आपण पाहू शकता की मी काय करत आहे - माझ्या डेव्हलपमेंट प्रवासाची आणि कौशल्यांची झलक",
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "MediMapper",
+            "description": "एक वेब-आधारित हेल्थकेअर प्लेटफॉर्म जे रुग्णांना लक्षणांवर आधारित रोग ओळखण्यात मदत करते, घरगुती उपाय सुचवते आणि डॉक्टर-रुग्ण संवादासाठी चॅट व व्हिडिओ कॉलची सुविधा देते.",
+            "longDescription": "MediMapper हे हेल्थकेअर प्लेटफॉर्म आहे जे दूरस्थ आरोग्य सेवा अधिक सुलभ व कार्यक्षम बनवते. रुग्ण संभाव्य रोग ओळखण्यासाठी लक्षणे इनपुट करू शकतात आणि घरगुती उपाय प्राप्त करू शकतात. प्लेटफॉर्म WebRTC चा वापर करून डॉक्टर व रुग्ण यांच्यात सुरक्षित रिअल-टाइम संवाद सक्षम करतो. यात रुग्ण व डॉक्टरसाठी वैयक्तिक प्रोफाइल, स्टोअर केलेल्या चॅट इतिहासासह रिअल-टाइम मेसेजिंग, व लक्षणांवरून रोगांची मॅपिंग या मुख्य वैशिष्ट्यांचा समावेश आहे.",
+            "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WebRTC"],
+            "imageUrl": "https://sohamkoli.netlify.app/assets/project1.png",
+            "demoUrl": "https://medimapper.gt.tc",
+            "githubUrl": "https://github.com/sohamkoli29/MediMapper",
+            "status": "completed",
+            "category": "web",
+            "features": [
+                "लक्षणांवरून रोग मॅपिंग",
+                "घरगुती उपाय सुचवणे",
+                "डॉक्टर-रुग्ण संवादासाठी चॅट व व्हिडिओ कॉल",
+                "वैयक्तिक यूजर प्रोफाइल",
+                "स्टोअर केलेल्या चॅट इतिहासासह रिअल-टाइम मेसेजिंग",
+                "रुग्ण व डॉक्टरांसाठी सुरक्षित लॉगिन"
+            ]
+        }
+    ],
+
+    "projectsNote": "अधिक प्रोजेक्ट्स लवकरच येत आहेत! मी सातत्याने शिकत आहे व नवीन गोष्टी तयार करत आहे.",
+
+    "errorMsg": "कृपया सर्व फील्ड भरा",
+    "errorReq": "संदेश पाठवण्यात अयशस्वी. कृपया नंतर पुन्हा प्रयत्न करा.",
+    "contactTitles": ["ईमेल", "फोन", "स्थान"],
+    "contactValues": ["sohamkoli29@gmail.com", "+91 7058260905", "Alibag Raigad, Maharastra, India"],
+    "contactHead": "संपर्क करा",
+    "contactDes": "काही प्रोजेक्टस आहेत किंवा फक्त नमस्कार म्हणायचे आहे? मला आपल्याकडून ऐकायला आवडेल. चला काही अद्भुत तयार करूया.",
+    "contactSec": "संपर्कात रहा",
+
+    "socialTitle": "मला फॉलो करा",
+    "successMsg": "संदेश यशस्वीरित्या पाठवला! मी लवकरच उत्तर देईन.",
+    "msgBtn": "संदेश पाठवा",
+    "name": "तुमचे नाव",
+    "email": "तुमचा ईमेल",
+    "subject": "विषय",
+    "textAera": "तुमचा संदेश",
+    "responseTitle": "जलद प्रतिसाद वेळ",
+    "responseDes": "मी सहसा 24 तासांच्या आत उत्तर देतो. तातडीच्या चौकशीसाठी, थेट फोन किंवा LinkedIn वर संपर्क करा.",
+    "responseTime": "सरासरी प्रतिसाद वेळ: 2-4 तास",
+    "rights": "सर्व हक्क राखीव.",
+    "sourceBtn": "स्रोत पहा",
+    "viewBtn": "प्रोजेक्ट पहा"
 }
