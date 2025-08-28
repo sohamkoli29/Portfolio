@@ -36,3 +36,10 @@ Clone the repo and install dependencies:
 git clone https://github.com/your-username/portfolio-1.git
 cd portfolio-1
 npm install
+```
+***
+
+##Start the development server:
+```bash
+npm run dev
+```
