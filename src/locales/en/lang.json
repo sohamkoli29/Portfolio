@@ -91,7 +91,7 @@
             "issuer": "Red Hat Academy",
             "date": "Dec 26, 2024 - Feb 22, 2025",
             "description": "Completed RH104 course covering Linux basics: system access, file management, file systems, permissions, software installation, networking, and system resources. Achieved 100% completion.",
-            "imageUrl": "src/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "imageUrl": "../../src/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
             "verificationUrl": "src/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
             "skills": [
                 "Linux",
