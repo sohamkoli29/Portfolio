@@ -1,9 +1,24 @@
 {
+    
     "logoFname": "Soham",
     "logoLname": "Koli",
-    "navList"  : [ "Home", "About", "Skills", "Projects", "Contact" ],
-    "homeHead" : "WELCOME TO MY PORTFOLIO",
-    "homeText" : "WEB DESIGNER | FRONT-END DEVELOPER | BACK-END DEVELOPER",
+    "navList"  : [ "Home", "About", "Skills","Certificates","Achievements","Experience", "Projects", "Contact" ],
+
+
+    "greeting" : "Hello, I\\'m",
+    
+    "homeHead" : "Soham Koli",
+    "roleFullStack":"Full Stack Devloper",
+    "roleFrontend":"Frontend Devloper",
+    "roleBackend":"Backend Devloper",
+    "roleReact":"React Devloper",
+    "homeText" : "Crafting digital experiences with modern technologies. Specialized in full-stack development with a passion for creating innovative solutions that make a difference.",
+    "rolePrefix":"A passionate",
+    "viewWork": "View My Work",
+    "getInTouch":"Get In Touch",
+    "scrollDown":"Scroll to explore",
+
+
     "aboutHead": "About",
     "aboutEduHead" : "Education",
     "aboutEduH3" :"Pimpri Chinchwad University",
@@ -16,15 +31,222 @@
     "aboutBioH3":"About Me",
     "aboutBioP": "Hi, I'm Soham Koli—a dedicated web developer who loves turning ideas into sleek, user-friendly digital experiences. I thrive on building responsive websites and web applications, blending creativity with modern frontend and backend tech to deliver solutions that are both functional and engaging.",
     "aboutBtn" :"Download CV",
+
+
+
+
     "skillsHead":"Skills",
     "skills":["HTML","CSS","JAVASCRIPT","REACT","NODE JS","PYTHON","MYSQL","JAVA","WEB DESIGN"],
-    "servicesHead":"Services",
-    "services":["Web Development","UI/UX Design"],
-    "servicesDev":"We create stunning and functional websites tailored to your needs, ensuring a seamless user experience.",
-    "servicesDes":"Our design team crafts intuitive and engaging interfaces that enhance user satisfaction and drive conversions.",
-    "projectHead": "Project",
-    "projects" : "Project 1: Healthcare Website",
-    "projectHealth" : "Symptom Mapper: Helps users identify potential health issues based on their symptoms. Disease-to-Home Remedies: Offers practical home remedies for common health conditions.Doctor-Patient Profiles: Secure logins with features for appointment bookings, chats, and video consultations.AI Chatbot: Separate chatbots for Medical, Ayurvedic, Nutrition, and Mental Health help.",
+    
+    
+    
+    "achievementsHead": "Achievements",
+    "achievementsSub": "My learning journey and participation in various events and projects",
+    "achievements": [
+        {
+        "id": 1,
+        "title": "Web Development Certificate",
+        "organization": "Internshala Trainings",
+        "date": "January 2024",
+        "description": "I successfully completed an 8-week online training on Web Development, covering HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React, and a Final Project module.",
+        "type": "completion",
+        "imageUrl": "src/assets/certificates/preview/Web Development with AI Training.png"
+        },
+        {
+        "id": 2,
+        "title": "Hackathon Participation Certificate",
+        "organization": "Amity University Mumbai",
+        "date": "January 2025",
+        "description": "I participated in NIRMAN ‘25, a 48-hour hackathon held at Amity School of Engineering and Technology, Amity University Mumbai, from 28th to 30th January 2025.",
+        "type": "participation",
+        "imageUrl": "src/assets/certificates/preview/NIRMAN2025.png"
+        },
+        {
+        "id": 3,
+        "title": "Hackathon Participation Certificate",
+        "organization": "IIT Delhi - Tryst'25 (Mappls Appathon)",
+        "date": "March 2025",
+        "description": "I participated in the Mappls Appathon organized by MapmyIndia at IIT Delhi during Tryst'25: An Ingenious Stewardship, held from 10th to 12th March 2025.",
+        "type": "participation",
+        "imageUrl": "src/assets/certificates/preview/TRYST'2025.png"
+        },
+        {
+        "id": 4,
+        "title": "Hackathon Participation Certificate",
+        "organization": "IIIT Delhi - E-Summit 2025",
+        "date": "March 2025",
+        "description": "I actively participated in 'Hack for Impact' at E-Summit 2025 organized by the Entrepreneurship Cell, IIIT Delhi, held on 21st–22nd March 2025.",
+        "type": "participation",
+        "imageUrl": "src/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        }
+    ],
+
+        "certificatesHead": "Certifications",
+        "certificatesSub": "Professional certifications and achievements that validate my expertise",
+
+        "certificates": [
+            {
+            "id": 1,
+            "title": "Getting Started with Linux Fundamentals 9.1",
+            "issuer": "Red Hat Academy",
+            "date": "Dec 26, 2024 - Feb 22, 2025",
+            "description": "Completed RH104 course covering Linux basics: system access, file management, file systems, permissions, software installation, networking, and system resources. Achieved 100% completion.",
+            "imageUrl": "src/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "verificationUrl": "src/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
+            "skills": [
+                "Linux",
+                "File Systems",
+                "User Permissions",
+                "Software Packages",
+                "Networking",
+                "System Resources",
+                "GNOME Desktop",
+                "Command Line"
+            ]
+            },
+            {
+            "id": 2,
+            "title": "Full-stack Development with Django: Managing Migrations",
+            "issuer": "Coursera Project Network (via Pimpri Chinchwad University)",
+            "date": "Mar 7, 2025",
+            "description": "Completed a 2-hour guided project focused on Django migrations and database management. Learned to create Django apps with admin UI, build and roll back migrations, manage models, and display portfolio status in a dashboard.",
+            "imageUrl": "src/assets/certificates/preview/Full-stack Development with Django.png",
+            "verificationUrl": "src/assets/certificates/Full-stack Development with Django.pdf",
+            "skills": [
+                "Django",
+                "Data Migration",
+                "Database Development",
+                "Back-End Web Development",
+                "Server-Side Development",
+                "Data Structures",
+                "Relational Databases",
+                "Full-Stack Web Development"
+            ]
+            },
+            {
+            "id": 3,
+            "title": "React with AI",
+            "issuer": "Internshala Trainings",
+            "date": "May 19, 2025",
+            "description": "Completed a 6-week online training covering React fundamentals, states & useState, components & props, styling, events & useRef, functional programming with hooks, React Router, and AI integration. Recognized as a top performer.",
+            "imageUrl": "src/assets/certificates/preview/React.png",
+            "verificationUrl": "https://trainings.internshala.com/verify_certificate/jf93uehj5mt",
+            "skills": [
+                "React",
+                "JavaScript",
+                "Hooks",
+                "React Router",
+                "State Management",
+                "Components & Props",
+                "Styling",
+                "AI Integration"
+            ]
+            },
+            {
+            "id": 4,
+            "title": "Red Hat Application Development I: Programming in Java EE 7.0",
+            "issuer": "Red Hat Academy",
+            "date": "May 15, 2025 - Jul 15, 2025",
+            "description": "Completed AD183 course with 100% score, covering enterprise application development using Java EE. Learned multi-tiered applications, EJBs, JPA persistence, REST APIs, CDI, JMS, and JAAS security. Gained hands-on experience deploying to Red Hat JBoss EAP servers.",
+            "imageUrl": "src/assets/certificates/preview/Java.png",
+            "verificationUrl": "src/assets/certificates/Java.pdf",
+            "skills": [
+                "Java EE",
+                "Enterprise Java Beans (EJB)",
+                "Persistence (JPA)",
+                "Entity Relationships",
+                "REST APIs (JAX-RS)",
+                "Contexts and Dependency Injection (CDI)",
+                "Java Messaging Service (JMS)",
+                "JAAS Security",
+                "Multi-Tier Applications",
+                "Red Hat JBoss EAP"
+            ]
+            },
+            {
+            "id": 5,
+            "title": "Node.js",
+            "issuer": "Internshala Trainings",
+            "date": "Aug 19, 2025",
+            "description": "Completed a 6-week online training covering Node.js fundamentals, asynchronous programming, Node modules, Express web applications, and a final project connecting a web app to MongoDB using AJAX and Node modules. Recognized as a top performer.",
+            "imageUrl": "src/assets/certificates/preview/NODE js.png",
+            "verificationUrl": "src/assets/certificates/NODE js.pdf",
+            "skills": [
+                "Node.js",
+                "JavaScript",
+                "Asynchronous Programming",
+                "Node Modules",
+                "Express.js",
+                "MongoDB",
+                "AJAX",
+                "Back-End Development"
+            ]
+            }
+        ],
+
+
+     "experienceHead": "Experience",
+  "experienceSub": "My professional journey and hands-on learning experiences",
+
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Web Development Intern",
+      "company": "ShadowFox",
+      "location": "Remote",
+      "duration": "June 2024 - July 2024",
+      "type": "internship",
+      "description": "I worked as a Web Development Intern, gaining practical experience in building responsive and user-friendly websites. Focused on applying frontend and backend concepts to real-world projects.",
+      "responsibilities": [
+        "Designed and developed responsive webpages using HTML, CSS, and JavaScript",
+        "Integrated frontend components with backend APIs",
+        "Collaborated with mentors to improve website functionality",
+        "Contributed to team discussions and brainstorming sessions",
+        "Debugged and optimized code for better performance"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+      "achievements": [
+        "Successfully built and deployed a project website",
+        "Improved problem-solving and debugging skills",
+        "Received appreciation from mentors for quality work"
+      ]
+    }
+  ],    
+        
+
+    "projectsHead": "Projects",
+    "projectsSub": "Here's what I've been working on - showcasing my development journey and skills",
+
+    "projects": [
+        {
+        "id": 1,
+        "title": "MediMapper",
+        "description": "A web-based healthcare platform that helps patients identify diseases based on symptoms, provides home remedies, and enables real-time doctor-patient communication via chat and video calls.",
+        "longDescription": "MediMapper is a healthcare platform designed to make remote healthcare more accessible and efficient. Patients can input symptoms to identify possible diseases and receive home remedies. The platform also enables secure real-time communication between doctors and patients through chat and video calls using WebRTC. User profiles for patients and doctors, real-time messaging with chat history, and symptom-to-disease mapping are included as core features.",
+        "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WebRTC"],
+        "imageUrl": "src/assets/project1.png",
+        "demoUrl": "https://medimapper.gt.tc",
+        "githubUrl": "https://github.com/sohamkoli29/MediMapper",
+        "status": "completed",
+        "category": "web",
+        "features": [
+            "Symptom-to-disease mapping",
+            "Home remedies suggestions",
+            "Doctor-patient communication via chat and video calls",
+            "Personalized user profiles",
+            "Real-time messaging with stored chat history",
+            "Secure login for patients and doctors"
+        ]
+        }
+    ],
+
+    "projectsNote": "More projects coming soon! I'm constantly learning and building new things.",
+    
+    
+
+
+
+
     "errorMsg": "Please fill in all fields",
     "errorReq" : "Failed to send message. Please try again later.",
     "contactTitles" : ["Email","Phone","Location"],
@@ -32,6 +254,10 @@
     "contactHead":"Get In Touch",
     "contactDes":" Have a project in mind or just want to say hello? I'd love to hear from you. Let's create something amazing together.",
     "contactSec":"Let's Connect",
+    
+
+
+    
     "socialTitle" : "Follow Me",
     "successMsg":"Message sent successfully! I'll get back to you soon.",
     "msgBtn":"Send Message",
@@ -42,11 +268,6 @@
     "responseTitle":"Quick Response Time",
     "responseDes":"I typically respond within 24 hours. For urgent inquiries, feel free to reach out directly via phone or LinkedIn.",
     "responseTime":"Average response time: 2-4 hours",
-    "nav":"Navigation",
-    "aboutFooter":"Creating innovative digital solutions with modern technologies. Passionate about clean code, user experience, and bringing ideas to life.",
-    "story": "Our Story",
-    "portfolio":"Portfolio",
-    "work":"Work With Us",
     "rights":" All rights reserved.",
     "sourceBtn": "View Source",
     "viewBtn":"View Project"
