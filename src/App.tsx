@@ -4,7 +4,9 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
-
+import Certificates from './components/Certificates/Certificates';
+import Achievements from './components/Achievements/Achievements';
+import Experience from './components/Experience/Experience';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './ScrollToTop';
@@ -21,7 +23,9 @@ function App(): JSX.Element {
         <Home/>
         <About/>
         <Skills />
-       
+        <Certificates/>
+        <Achievements/>
+        <Experience/>
         <Projects/>
         <Contact />
         <Footer />
