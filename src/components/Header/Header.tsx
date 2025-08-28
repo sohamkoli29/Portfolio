@@ -73,8 +73,11 @@ const Header: React.FC = () => {
   <a className="links" href="#home">{t('navList.0')}</a>
   <a className="links" href="#about">{t('navList.1')}</a>
   <a className="links" href="#skills">{t('navList.2')}</a>
-  <a className="links" href="#projects">{t('navList.3')}</a>
-  <a className="links" href="#contact">{t('navList.4')}</a>
+  <a className="links" href="#certificates">{t('navList.3')}</a>
+  <a className="links" href="#achievements">{t('navList.4')}</a>
+  <a className="links" href="#experience">{t('navList.5')}</a>
+  <a className="links" href="#projects">{t('navList.6')}</a>
+  <a className="links" href="#contact">{t('navList.7')}</a>
 </nav>
 
 
@@ -103,11 +106,20 @@ const Header: React.FC = () => {
   <a className="links" href="#skills" onClick={closeMobileMenu}>
     {t('navList.2')}
   </a>
-  <a className="links" href="#projects" onClick={closeMobileMenu}>
+  <a className="links" href="#certificates" onClick={closeMobileMenu}>
     {t('navList.3')}
   </a>
-  <a className="links" href="#contact" onClick={closeMobileMenu}>
+  <a className="links" href="#achievements" onClick={closeMobileMenu}>
     {t('navList.4')}
+  </a>
+  <a className="links" href="#experience" onClick={closeMobileMenu}>
+    {t('navList.5')}
+  </a>
+  <a className="links" href="#projects" onClick={closeMobileMenu}>
+    {t('navList.6')}
+  </a>
+  <a className="links" href="#contact" onClick={closeMobileMenu}>
+    {t('navList.7')}
   </a>
 </div>
 
