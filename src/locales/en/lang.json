@@ -50,7 +50,7 @@
         "date": "January 2024",
         "description": "I successfully completed an 8-week online training on Web Development, covering HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React, and a Final Project module.",
         "type": "completion",
-        "imageUrl": "assets/certificates/preview/Web Development with AI Training.png"
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Web Development with AI Training.png"
         },
         {
         "id": 2,
@@ -59,7 +59,7 @@
         "date": "January 2025",
         "description": "I participated in NIRMAN ‘25, a 48-hour hackathon held at Amity School of Engineering and Technology, Amity University Mumbai, from 28th to 30th January 2025.",
         "type": "participation",
-        "imageUrl": "assets/certificates/preview/NIRMAN2025.png"
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NIRMAN2025.png"
         },
         {
         "id": 3,
@@ -68,7 +68,7 @@
         "date": "March 2025",
         "description": "I participated in the Mappls Appathon organized by MapmyIndia at IIT Delhi during Tryst'25: An Ingenious Stewardship, held from 10th to 12th March 2025.",
         "type": "participation",
-        "imageUrl": "assets/certificates/preview/TRYST'2025.png"
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/TRYST'2025.png"
         },
         {
         "id": 4,
@@ -77,7 +77,7 @@
         "date": "March 2025",
         "description": "I actively participated in 'Hack for Impact' at E-Summit 2025 organized by the Entrepreneurship Cell, IIIT Delhi, held on 21st–22nd March 2025.",
         "type": "participation",
-        "imageUrl": "assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
         }
     ],
 
@@ -91,8 +91,8 @@
             "issuer": "Red Hat Academy",
             "date": "Dec 26, 2024 - Feb 22, 2025",
             "description": "Completed RH104 course covering Linux basics: system access, file management, file systems, permissions, software installation, networking, and system resources. Achieved 100% completion.",
-            "imageUrl": "assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
-            "verificationUrl": "assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Certificate of Attendance (RH104-9.1).png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Certificate of Attendance (RH104-9.1).pdf",
             "skills": [
                 "Linux",
                 "File Systems",
@@ -110,8 +110,8 @@
             "issuer": "Coursera Project Network (via Pimpri Chinchwad University)",
             "date": "Mar 7, 2025",
             "description": "Completed a 2-hour guided project focused on Django migrations and database management. Learned to create Django apps with admin UI, build and roll back migrations, manage models, and display portfolio status in a dashboard.",
-            "imageUrl": "assets/certificates/preview/Full-stack Development with Django.png",
-            "verificationUrl": "assets/certificates/Full-stack Development with Django.pdf",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Full-stack Development with Django.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Full-stack Development with Django.pdf",
             "skills": [
                 "Django",
                 "Data Migration",
@@ -129,8 +129,8 @@
             "issuer": "Internshala Trainings",
             "date": "May 19, 2025",
             "description": "Completed a 6-week online training covering React fundamentals, states & useState, components & props, styling, events & useRef, functional programming with hooks, React Router, and AI integration. Recognized as a top performer.",
-            "imageUrl": "assets/certificates/preview/React.png",
-            "verificationUrl": "src/assets/certificates/React.pdf",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/React.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/src/assets/certificates/React.pdf",
             "skills": [
                 "React",
                 "JavaScript",
@@ -148,8 +148,8 @@
             "issuer": "Red Hat Academy",
             "date": "May 15, 2025 - Jul 15, 2025",
             "description": "Completed AD183 course with 100% score, covering enterprise application development using Java EE. Learned multi-tiered applications, EJBs, JPA persistence, REST APIs, CDI, JMS, and JAAS security. Gained hands-on experience deploying to Red Hat JBoss EAP servers.",
-            "imageUrl": "assets/certificates/preview/Java.png",
-            "verificationUrl": "assets/certificates/Java.pdf",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/Java.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/Java.pdf",
             "skills": [
                 "Java EE",
                 "Enterprise Java Beans (EJB)",
@@ -169,8 +169,8 @@
             "issuer": "Internshala Trainings",
             "date": "Aug 19, 2025",
             "description": "Completed a 6-week online training covering Node.js fundamentals, asynchronous programming, Node modules, Express web applications, and a final project connecting a web app to MongoDB using AJAX and Node modules. Recognized as a top performer.",
-            "imageUrl": "assets/certificates/preview/NODE js.png",
-            "verificationUrl": "assets/certificates/NODE js.pdf",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NODE js.png",
+            "verificationUrl": "https://sohamkoli.netlify.app/assets/certificates/NODE js.pdf",
             "skills": [
                 "Node.js",
                 "JavaScript",
@@ -224,7 +224,7 @@
         "description": "A web-based healthcare platform that helps patients identify diseases based on symptoms, provides home remedies, and enables real-time doctor-patient communication via chat and video calls.",
         "longDescription": "MediMapper is a healthcare platform designed to make remote healthcare more accessible and efficient. Patients can input symptoms to identify possible diseases and receive home remedies. The platform also enables secure real-time communication between doctors and patients through chat and video calls using WebRTC. User profiles for patients and doctors, real-time messaging with chat history, and symptom-to-disease mapping are included as core features.",
         "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WebRTC"],
-        "imageUrl": "assets/project1.png",
+        "imageUrl": "https://sohamkoli.netlify.app/assets/project1.png",
         "demoUrl": "https://medimapper.gt.tc",
         "githubUrl": "https://github.com/sohamkoli29/MediMapper",
         "status": "completed",
