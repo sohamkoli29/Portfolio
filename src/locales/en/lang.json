@@ -244,7 +244,7 @@
             "description": "A web-based speech-to-text application that allows users to transcribe audio files or live speech into text, with history management and secure authentication.",
             "longDescription": "Speech Transcriber is a full-stack application built with React, Vite, Node.js, Express, and MongoDB. It enables users to record or upload audio and convert it into text using the AssemblyAI API. The platform includes secure authentication with JWT, transcription history storage, and a user-friendly interface. Users can view, manage, and delete their transcription history while enjoying a responsive and modern UI built with Tailwind CSS.",
             "technologies": ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Multer", "AssemblyAI"],
-            "imageUrl": "./assets/project2.png",
+            "imageUrl": "https://sohamkoli.netlify.app/assets/project2.png",
             "demoUrl": "https://speechrecogniz.netlify.app/",
             "githubUrl": "https://github.com/sohamkoli29/Frontend-Speech-Transcriber",
             "status": "completed",
