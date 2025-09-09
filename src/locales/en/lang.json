@@ -78,7 +78,16 @@
         "description": "I actively participated in 'Hack for Impact' at E-Summit 2025 organized by the Entrepreneurship Cell, IIIT Delhi, held on 21st–22nd March 2025.",
         "type": "participation",
         "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
-        }
+        },
+        {
+        "id": 5,
+        "title": "Generative AI Mastery Workshop Certificate",
+        "organization": "NxtWave & OpenAI Academy",
+        "date": "August 2025",
+        "description": "I participated in India's Biggest GenAI Buildathon and successfully completed the Generative AI Mastery Workshop organized by NxtWave and OpenAI Academy.",
+        "type": "participation",
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NxtWaveOpenAi.png"
+    }
     ],
 
         "certificatesHead": "Certifications",
