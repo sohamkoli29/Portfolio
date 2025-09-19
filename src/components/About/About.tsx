@@ -15,17 +15,48 @@ const About = (): JSX.Element => {
 
       <div className="about-main">
         <div className="about-edu">
-          <div className="about-cse">
-            <h3>{t('aboutEduHead')}</h3>
-            <br />
-            <h3>{t('aboutEduH3')}</h3>
-            <br />
-            <p>
-              {t('aboutProgram')} <br />
-              {t('aboutCourse')}
-            </p>
+          <div className="education-timeline">
+            {/* University Education */}
+            <div className="edu-item university">
+              <div className="edu-dot"></div>
+              <div className="edu-content">
+                <div className="edu-year">{t('aboutUniYear')}</div>
+                <h3>{t('aboutEduHead')}</h3>
+                <h4>{t('aboutEduH3')}</h4>
+                <p>
+                  {t('aboutProgram')} - {t('aboutCourse')}
+                </p>
+              </div>
+            </div>
+
+            {/* High School */}
+            <div className="edu-item highschool">
+              <div className="edu-dot"></div>
+              <div className="edu-content">
+                <div className="edu-year">{t('aboutHighSchoolYear')}</div>
+                <h3>{t('aboutHighSchoolHead')}</h3>
+                <h4>{t('aboutHighSchoolName')}</h4>
+                <p>
+                  {t('aboutHighSchoolProgram')} - {t('aboutHighSchoolStream')}
+                </p>
+              </div>
+            </div>
+
+            {/* Junior School */}
+            <div className="edu-item juniorschool">
+              <div className="edu-dot"></div>
+              <div className="edu-content">
+                <div className="edu-year">{t('aboutJuniorSchoolYear')}</div>
+                <h3>{t('aboutJuniorSchoolHead')}</h3>
+                <h4>{t('aboutJuniorSchoolName')}</h4>
+                <p>
+                  {t('aboutJuniorSchoolProgram')} - {t('aboutJuniorSchoolGrade')}
+                </p>
+              </div>
+            </div>
           </div>
 
+          {/* Competitive Programming - kept separate */}
           <div className="about-cf">
             <h3>{t('aboutCfHead')}</h3>
             <h3>{t('aboutCfH3')}</h3>
