@@ -49,9 +49,18 @@
 
 
 
-    "skillsHead":"Skills",
-    "skills":["HTML","CSS","JAVASCRIPT","REACT","NODE JS","PYTHON","MYSQL","JAVA","WEB DESIGN"],
-    
+     "skillsHead": "Skills",
+  "skills": [
+    "HTML",
+    "CSS", 
+    "JAVASCRIPT",
+    "REACT",
+    "NODE JS",
+    "PYTHON",
+    "MYSQL",
+    "JAVA",
+    "WEB DESIGN"
+  ],
     
     
     "achievementsHead": "Achievements",
