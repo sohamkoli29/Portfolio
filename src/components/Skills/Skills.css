@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  min-height: 100vh;
+  height: 100%;
   padding: 20px;
   position: relative;
 }
