@@ -8,7 +8,7 @@ interface AchievementData {
   organization: string;
   date: string;
   description: string;
-  type: 'participation' | 'completion' | 'project';
+  type: 'participation' | 'completion' | 'project' | 'workshop';
   imageUrl?: string;
 }
 
