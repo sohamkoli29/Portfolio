@@ -102,15 +102,25 @@
         "type": "participation",
         "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/HACK FOR IMPACT IIIT 2025.png"
         },
-        {
-        "id": 5,
-        "title": "Generative AI Mastery Workshop Certificate",
+       {
+       "id": 5,
+       "title": "Generative AI Mastery Workshop",
+       "organization": "NxtWave & OpenAI Academy",
+       "date": "August 2025",
+       "description": "Attended and successfully completed a 6-hour intensive Generative AI Mastery Workshop, gaining practical insights into GenAI tools and applications, organized by NxtWave in collaboration with OpenAI Academy.",
+       "type": "workshop",
+       "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NxtWaveOpenAi.png"
+      },
+      {
+       "id": 6,
+        "title": "GenAI Buildathon Participation",
         "organization": "NxtWave & OpenAI Academy",
-        "date": "August 2025",
-        "description": "I participated in India's Biggest GenAI Buildathon and successfully completed the Generative AI Mastery Workshop organized by NxtWave and OpenAI Academy.",
+        "date": "September 2025",
+        "description": "Participated in India's Biggest GenAI Buildathon, hosted by NxtWave and OpenAI Academy, contributing to the Generative AI learning community and exploring real-world AI problem-solving.",
         "type": "participation",
-        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NxtWaveOpenAi.png"
-    }
+        "imageUrl": "https://sohamkoli.netlify.app/assets/certificates/preview/NxtWaveOpenAi01.png"
+      }
+
     ],
 
         "certificatesHead": "Certifications",
