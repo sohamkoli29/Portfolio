@@ -299,7 +299,30 @@
                 "Responsive UI built with Tailwind CSS",
                 "Frontend-Backend communication with Axios"
             ]
-        }
+        },
+        {
+            "id": 3,
+            "title": "HotWheels Store",
+            "description": "A full-stack e-commerce application for HotWheels cars with a React + Vite frontend and Node.js + Express backend using Supabase as the database.",
+            "longDescription": "HotWheels Store is a modern full-stack e-commerce platform where users can browse, search, and purchase collectible HotWheels cars. The application features a dynamic product catalog, search and filter options, a real-time shopping cart, and a multi-step checkout process with form validation. The frontend is built with React and Vite for high performance, while the backend uses Node.js, Express, and Supabase PostgreSQL for database management. The site is fully responsive, fast, and designed with a clean, modern UI using Lucide icons.",
+            "technologies": ["React", "Vite", "CSS3", "Axios", "Lucide React", "Node.js", "Express.js", "Supabase", "CORS"],
+            "imageUrl": "https://sohamkoli.netlify.app/assets/project3.png",
+            "demoUrl": "https://hotwheels-store.netlify.app/",
+            "githubUrl": "https://github.com/sohamkoli29/HotWheels_Store",
+            "status": "completed",
+            "category": "web",
+            "features": [
+                "Product catalog with 10+ HotWheels cars",
+                "Search and filter cars by name, series, or color",
+                "Real-time shopping cart with add/remove functionality",
+                "Multi-step checkout process with form validation",
+                "Responsive design for all devices",
+                "Fast performance powered by Vite",
+                "Modern UI with Lucide icons",
+                "Supabase PostgreSQL database integration"
+            ]
+         }
+
 
     ],
 
