@@ -307,7 +307,7 @@
             "longDescription": "HotWheels Store is a modern full-stack e-commerce platform where users can browse, search, and purchase collectible HotWheels cars. The application features a dynamic product catalog, search and filter options, a real-time shopping cart, and a multi-step checkout process with form validation. The frontend is built with React and Vite for high performance, while the backend uses Node.js, Express, and Supabase PostgreSQL for database management. The site is fully responsive, fast, and designed with a clean, modern UI using Lucide icons.",
             "technologies": ["React", "Vite", "CSS3", "Axios", "Lucide React", "Node.js", "Express.js", "Supabase", "CORS"],
             "imageUrl": "https://sohamkoli.netlify.app/assets/project3.png",
-            "demoUrl": "https://hotwheels-store.netlify.app/",
+            "demoUrl": "https://hotstore.netlify.app",
             "githubUrl": "https://github.com/sohamkoli29/HotWheels_Store",
             "status": "completed",
             "category": "web",
