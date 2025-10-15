@@ -321,7 +321,29 @@
                 "Modern UI with Lucide icons",
                 "Supabase PostgreSQL database integration"
             ]
-         }
+         },
+         {
+    "id": 4,
+    "title": "Kaarya Setu",
+    "description": "Real-Time, All-in-One Platform for Distributed Teams enabling document editing, video calls, whiteboarding, task management, and team chat.",
+    "longDescription": "Kaarya Setu is a full-stack, browser-based collaboration suite that unifies essential team tools into a single platform. It offers real-time multi-user document editing with conflict-free synchronization (Yjs + WebSockets), peer-to-peer video conferencing (WebRTC), interactive whiteboards, Kanban-style task boards, and persistent team chat. The platform includes secure authentication with Supabase Auth/JWT, role-based access, workspace management, and scalable architecture designed for distributed teams.",
+    "technologies": ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "Supabase", "Socket.io", "Yjs", "WebRTC", "Redis", "Prisma ORM", "Excalidraw", "Fabric.js"],
+    "imageUrl": "https://sohamkoli.netlify.app/assets/project4.png",
+    "demoUrl": "https://kaaryasetu.netlify.app",
+    "githubUrl": "https://github.com/sohamkoli29/remote-collab-suite",
+    "status": "completed",
+    "category": "web",
+    "features": [
+        "Real-time multi-user document editing with Yjs + WebSockets",
+        "Peer-to-peer video/audio conferencing using WebRTC",
+        "Collaborative whiteboard with live sync and export",
+        "Kanban-style task boards with real-time updates",
+        "Team chat with persistent message history",
+        "Secure authentication and role-based access",
+        "Workspace management to create/join projects and invite members"
+    ]
+}
+
 
 
     ],
